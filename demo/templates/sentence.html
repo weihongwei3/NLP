@@ -1,0 +1,54 @@
+{% extends "base.html" %} {% block mainbody %}
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="/static/js/echarts.common.min.js"></script>   
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script>
+</head>
+<title>预处理</title>
+<div class="container" >
+    <div class="row">
+    <!--head start-->
+    <div class="col-md-12">
+        <h3 class="page-header"><i class="fa fa-share-alt" aria-hidden="true"></i> 预处理数据集 </h3>
+            <ol class="breadcrumb">
+                <li><i class="fa fa-home"></i><a href="\">Home</a></li>
+                <li><i class="fa fa-share-alt" aria-hidden="true"></i>预处理数据集</li>
+            </ol>
+    </div>
+    <div class = "col-md-12">
+    	<div class = "panel panel-default">
+			<header class="panel-heading">
+            预处理结果 :
+       		</header>
+       		<div class = "panel-body">
+                <table style="width: 1100px; table-layout:fixed; word-break:break-all; word-wrap:break-word;" >
+                 <thead style="background-color: gainsboro">
+                     <tr>
+                         <td style="width: 50px; color: #2b2b2b; font-size: large;">id</td>
+                         <td style="width: 50px; color: #2b2b2b; font-size: large;">文章</td>
+                         <td style="width: 50px; color: #2b2b2b; font-size: large;">句号</td>
+                         <td style="width: 450px; color: #2b2b2b; font-size: large;">分句</td>
+                         <td style="width: 500px; color: #2b2b2b; font-size: large;">分词</td>
+                     </tr>
+                 </thead>
+                <tbody >
+                    {% for id,doc_id,sentence_index,sentence_text,tokens in data%}
+                        <tr style="border-bottom:1px solid #b6b6b6;">
+                            <td style="width: 50px">{{ id }}</td>
+                            <td style="width: 50px">{{ doc_id }}</td>
+                            <td style="width: 50px">{{ sentence_index }}</td>
+                            <td style="width: 450px">{{ sentence_text }}</td>
+                            <td style="width: 500px">{{ tokens }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+			</div>
+		</div>
+	</div>
+    </div>
+</div>
+{% endblock %}

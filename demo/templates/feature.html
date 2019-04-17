@@ -1,0 +1,655 @@
+{% extends "base.html" %} {% block mainbody %}
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="/static/js/echarts.common.min.js"></script>   
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script>
+</head>
+<title>特征提取</title>
+<div class="container">
+    <div class="row">
+    <!--head start-->
+    <div class="col-md-12">
+        <h3 class="page-header"><i class="fa fa-link" aria-hidden="true"></i> 特征提取 </h3>
+            <ol class="breadcrumb">
+                <li><i class="fa fa-home"></i><a href="\">Home</a></li>
+                <li><i class="fa fa-link" aria-hidden="true"></i>特征提取</li>
+            </ol>
+    </div>
+
+    <!-- 第一个图，关系对，-->
+    <div class = "col-md-12">
+        <div class="panel panel-default ">
+	        <header class="panel-heading">
+	            关系统计 :
+	        </header>
+            <div class = "panel-body ">
+                <div id="relation" style="width: 100%;height:400px;"></div>
+                <script type="text/javascript">
+                // 基于准备好的dom，初始化echarts实例
+                var myChart = echarts.init(document.getElementById('relation'));
+
+                // 指定图表的配置项和数据
+                var option = {
+                    title: {
+                        text: '关系对'
+                    },
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                            type: 'cross',
+                            crossStyle: {
+                                color: '#999'
+                            }
+                        }
+                    },
+                    toolbox: {
+                        feature: {
+                            dataView: {show: true, readOnly: false},
+                            magicType: {show: true, type: ['line', 'bar']},
+                            restore: {show: true},
+                            saveAsImage: {show: true}
+                        }
+                    },
+                    legend: {
+                        data:['count']
+                    },
+                    xAxis: {
+                        data: ['','百度-人工智能','','','','','','','','','','','','','IBM-深度学习','','','','','','','','','','','','','','','','麻省理工学院-自然语言处理','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','微软-机器学习','','','','','','','','','','','',''],
+                        axisLabel:{
+                            interval: 0
+                        }
+                    },
+                    yAxis: {
+
+                    },
+                    series: [{
+                        name: 'count',
+                        type: 'bar',
+                        data: [70,50,30,30,20,20,19,19,18,15,15,13,13,13,10,10,9,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1],
+                        barWidth: 10,
+                        itemStyle: {
+                            normal: {
+                                color: '#2694e8'
+                            }
+                        },
+                        label:{
+                            normal:{
+                                //show: true,
+                                //position: 'insideTop'
+                            }
+                        }
+                    }]
+                };
+
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option);
+            </script>
+            </div>
+        </div>
+    </div>
+    <!-- 第二个图，特征权重，-->
+    <div class = "col-md-12">
+        <div class="panel panel-default ">
+	        <header class="panel-heading">
+	            特征信息 :
+	        </header>
+            <div class = "panel-body ">
+                <div id="weight" style="width: 100%;height:400px;"></div>
+                <script type="text/javascript">
+                // 基于准备好的dom，初始化echarts实例
+                var myChart = echarts.init(document.getElementById('weight'));
+
+                // 指定图表的配置项和数据
+                var option = {
+                    title: {
+                        text: '特征权重'
+                    },
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                            type: 'cross',
+                            crossStyle: {
+                                color: '#999'
+                            }
+                        }
+                    },
+                    toolbox: {
+                        feature: {
+                            dataView: {show: true, readOnly: false},
+                            magicType: {show: true, type: ['line', 'bar']},
+                            restore: {show: true},
+                            saveAsImage: {show: true}
+                        }
+                    },
+                    legend: {
+                        data:['weight']
+                    },
+                    xAxis: {
+                        data: ['WORD_SEQ_[和 百度 是 要 共同 推进 中国 在]',//36597
+                            'LEMMA_SEQ_[和 百度 是 要 共同 推进 中国 在]',
+                            'NER_SEQ_[O O O O O O GPE O]',
+                            'POS_SEQ_[CC NR VC VV AD VV NR P]',
+                            'W_LEMMA_L_1_R_1_[认为]_[领域]',
+                            'W_NER_L_1_R_1_[O]_[O]',
+                            'W_LEMMA_L_1_R_2_[认为]_[领域 工业界]',
+                            'W_NER_L_1_R_2_[O]_[O O]',
+                            'W_LEMMA_L_1_R_3_[认为]_[领域 工业界 落地]',
+                            'W_NER_L_1_R_3_[O]_[O O O]',
+                            'W_LEMMA_L_2_R_1_[胡郁 认为]_[领域]',
+                            'W_NER_L_2_R_1_[PERSON O]_[O]',
+                            'W_LEMMA_L_2_R_2_[胡郁 认为]_[领域 工业界]',
+                            'W_NER_L_2_R_2_[PERSON O]_[O O]',
+                            'W_LEMMA_L_2_R_3_[胡郁 认为]_[领域 工业界 落地]',
+                            'W_NER_L_3_R_3_[O PERSON O]_[O O O]',
+                            'NGRAM_1_[和]',
+                            'NGRAM_2_[和 百度]',
+                            'NGRAM_3_[和 百度 是]',
+                            'NGRAM_1_[百度]',
+                            'NGRAM_2_[百度 是]',
+                            'NGRAM_3_[百度 是 要]',
+                            'NGRAM_1_[是]',
+                            'NGRAM_2_[是 要]',
+                            'NGRAM_3_[是 要 共同]',
+                            'NGRAM_1_[要]',
+                            'NGRAM_2_[要 共同]',
+                            'NGRAM_3_[要 共同 推进]',
+                            'NGRAM_1_[共同]',
+                            'NGRAM_2_[共同 推进]',
+                            'NGRAM_3_[共同 推进 中国]',
+                            'NGRAM_1_[推进]',
+                            'NGRAM_2_[推进 中国]',
+                            'NGRAM_3_[推进 中国 在]',
+                            'NGRAM_1_[中国]',
+                            'NGRAM_2_[中国 在]',
+                            'NGRAM_1_[在]',
+                            'BETW_[conj 百度 nsubj 推进 ccomp 进展 acl 落地 nsubj 工业界 compound:nn 领域 compound:nn]',
+                            'BETW_L_[conj nsubj ccomp acl nsubj compound:nn compound:nn]',
+                            'BETW_D_[conj 百度 nsubj 推进 ccomp 进展 acl 落地 nsubj 工业界 compound:nn 领域 compound:nn]',
+                            'STARTS_WITH_CAPITAL_[False_False]',
+                            'LENGTHS_[1_1]',
+                            'WORD_SEQ_[是 要 共同 推进 中国 在]',//36598
+                            'LEMMA_SEQ_[是 要 共同 推进 中国 在]',
+                            'NER_SEQ_[O O O O GPE O]',
+                            'POS_SEQ_[VC VV AD VV NR P]',
+                            'W_LEMMA_L_1_R_1_[和]_[领域]',
+                            'W_NER_L_1_R_1_[O]_[O]',
+                            'W_LEMMA_L_1_R_2_[和]_[领域 工业界]',
+                            'W_NER_L_1_R_2_[O]_[O O]',
+                            'W_LEMMA_L_1_R_3_[和]_[领域 工业界 落地]',
+                            'W_NER_L_1_R_3_[O]_[O O O]',
+                            'W_LEMMA_L_2_R_1_[讯飞 和]_[领域]',
+                            'W_NER_L_2_R_1_[O O]_[O]',
+                            'W_LEMMA_L_2_R_2_[讯飞 和]_[领域 工业界]',
+                            'W_NER_L_2_R_2_[O O]_[O O]',
+                            'W_LEMMA_L_2_R_3_[讯飞 和]_[领域 工业界 落地]',
+                            'W_NER_L_2_R_3_[O O]_[O O O]',
+                            'W_LEMMA_L_3_R_1_[科大 讯飞 和]_[领域]',
+                            'W_NER_L_3_R_1_[ORGANIZATION O O]_[O]',
+                            'W_LEMMA_L_3_R_2_[科大 讯飞 和]_[领域 工业界]',
+                            'W_NER_L_3_R_2_[ORGANIZATION O O]_[O O]',
+                            'W_LEMMA_L_3_R_3_[科大 讯飞 和]_[领域 工业界 落地]',
+                            'W_NER_L_3_R_3_[ORGANIZATION O O]_[O O O]',
+                            'NGRAM_1_[是]',
+                            'NGRAM_2_[是 要]',
+                            'NGRAM_3_[是 要 共同]',
+                            'NGRAM_1_[要]',
+                            'NGRAM_2_[要 共同]',
+                            'NGRAM_3_[要 共同 推进]',
+                            'NGRAM_1_[共同]',
+                            'NGRAM_2_[共同 推进]',
+                            'NGRAM_3_[共同 推进 中国]',
+                            'NGRAM_1_[推进]',
+                            'NGRAM_2_[推进 中国]',
+                            'NGRAM_3_[推进 中国 在]',
+                            'NGRAM_1_[中国]',
+                            'NGRAM_2_[中国 在]',
+                            'NGRAM_1_[在]',
+                            'BETW_[nsubj 推进 ccomp 进展 acl 落地 nsubj 工业界 compound:nn 领域 compound:nn]',
+                            'BETW_L_[nsubj ccomp acl nsubj compound:nn compound:nn]',
+                            'BETW_D_[nsubj 推进 ccomp 进展 acl 落地 nsubj 工业界 compound:nn 领域 compound:nn]',
+                            'STARTS_WITH_CAPITAL_[False_False]',
+                            'LENGTHS_[0_1]'
+                        ],
+{#                        axisLabel:{#}
+{#                            interval: 0#}
+{#                        }#}
+                    },
+                     yAxis: [
+                         {
+                            type: 'value',
+                            name: 'count',
+                            min: 0,
+                            max: 0.5,
+                            interval: 0.1,
+                            axisLabel: {
+                                formatter: '{value}'
+                            }
+                        }
+                    ],
+                    series: [{
+                        name: 'weight',
+                        type: 'bar',
+                        data: [0.4,0.3,0.15,0.15,0.11,0.1,0.1,0.1,0.1,0.1,0.09,0.07,0.07,0.063,0.062,0.05,0.05,0.04,0.04,0.03,0.03,0.03,0.03,0.028,0.028,0.028,0.028,0.027,0.027,0.027,0.027,0.027,0.026,0.026,0.025,0.024,0.023,0.02,0.019,0.018,0.016,0.015,0.015,0.013,0.013,0.013,0.013,0.013,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005,0.005],
+                        barWidth: 7,
+                        itemStyle: {
+                            normal: {
+                                color: '#2694e8'
+                            }
+                        },
+                        label:{
+                            normal:{
+                                //show: true,
+                                //position: 'insideTop'
+                            }
+                        }
+                    }]
+                };
+
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option);
+            </script>
+            </div>
+        </div>
+    </div>
+    <!-- 第三个图，特征数量，-->
+    <div class = "col-md-12">
+        <div class="panel panel-default ">
+	        <header class="panel-heading">
+	            特征信息 :
+	        </header>
+            <div class = "panel-body ">
+                <div id="num" style="width: 100%;height:400px;"></div>
+                <script type="text/javascript">
+                // 基于准备好的dom，初始化echarts实例
+                var myChart = echarts.init(document.getElementById('num'));
+
+                // 指定图表的配置项和数据
+                var data = [
+                     {name: 'WORD_SEQ_[基于 深度 学习 的 名为 DeepSpeech]', value: 30},
+                     {name: 'LEMMA_SEQ_[基于 深度 学习 的 名为 DeepSpeech]', value: 12},
+                     {name: 'NER_SEQ_[O O O O O O]', value: 20},
+                     {name: 'POS_SEQ_[P NN VV DEC VV NR]', value: 20},
+                     {name: 'W_LEMMA_L_1_R_1_[，]_[系统]', value: 20},
+                     {name: 'W_NER_L_1_R_1_[O]_[O]', value: 20},
+                     {name: 'W_LEMMA_L_1_R_2_[，]_[系统 可以]', value: 20},
+                     {name: 'W_NER_L_1_R_2_[O]_[O O]', value: 20},
+                     {name: 'W_LEMMA_L_1_R_3_[，]_[系统 可以 在]', value: 20},
+                     {name: 'W_NER_L_1_R_3_[O]_[O O O]', value: 50},
+                     {name: 'W_LEMMA_L_2_R_1_[年底 ，]_[系统]', value: 20},
+                     {name: 'W_NER_L_2_R_1_[TIME O]_[O]', value: 40},
+                     {name: 'W_LEMMA_L_2_R_2_[年底 ，]_[系统 可以]', value: 20},
+                     {name: 'W_NER_L_2_R_2_[TIME O]_[O O]', value: 20},
+                     {name: 'W_LEMMA_L_2_R_3_[年底 ，]_[系统 可以 在]', value: 20},
+                     {name: 'W_NER_L_2_R_3_[TIME O]_[O O O]', value: 20},
+                     {name: 'W_LEMMA_L_3_R_1_[去年 年底 ，]_[系统]', value: 20},
+                     {name: 'W_NER_L_3_R_1_[DATE TIME O]_[O]', value: 10},
+                     {name: 'W_LEMMA_L_3_R_2_[去年 年底 ，]_[系统 可以]', value: 35},
+                     {name: 'W_NER_L_3_R_2_[DATE TIME O]_[O O]', value: 35},
+                     {name: 'W_LEMMA_L_3_R_3_[去年 年底 ，]_[系统 可以 在]', value: 35},
+                     {name: 'W_NER_L_3_R_3_[DATE TIME O]_[O O O]', value: 35},
+                     {name: 'NGRAM_1_[基于]', value: 35},
+                     {name: 'NGRAM_2_[基于 深度]', value: 35},
+                     {name: 'NGRAM_3_[基于 深度 学习]', value: 35},
+                     {name: 'NGRAM_1_[深度]', value: 35},
+                     {name: 'NGRAM_2_[深度 学习]', value: 35},
+                     {name: 'NGRAM_3_[深度 学习 的]', value: 35},
+                     {name: 'NGRAM_1_[学习]', value: 20},
+                     {name: 'NGRAM_2_[学习 的]', value: 20},
+                     {name: 'NGRAM_3_[学习 的 名为]', value: 20},
+                     {name: 'NGRAM_1_[的]', value: 20},
+                     {name: 'NGRAM_2_[的 名为]', value: 20},
+                     {name: 'NGRAM_3_[的 名为 DeepSpeech]', value: 20},
+                     {name: 'NGRAM_1_[名为]', value: 20},
+                     {name: 'NGRAM_2_[名为 DeepSpeech]', value: 20},
+                     {name: 'NGRAM_1_[DeepSpeech]', value: 20},
+                     {name: 'BETW_[conj 基于 ccomp 学习 acl 名为 dobj 系统 compound:nn]', value:20},
+                     {name: 'BETW_L_[conj ccomp acl dobj compound:nn]', value: 20},
+                     {name: 'BETW_D_[conj 基于 ccomp 学习 acl 名为 dobj 系统 compound:nn]', value: 20},
+                     {name: 'STARTS_WITH_CAPITAL_[False_False]', value: 20},
+                     {name: 'LENGTHS_[0_1]', value: 20}
+
+                ];
+                var geoCoordMap = {
+                    'WORD_SEQ_[基于 深度 学习 的 名为 DeepSpeech]':[1,50],
+                    'LEMMA_SEQ_[基于 深度 学习 的 名为 DeepSpeech]':[2,20],
+                    'NER_SEQ_[O O O O O O]':[3,10],
+                    'POS_SEQ_[P NN VV DEC VV NR]':[4,8],
+                    'W_LEMMA_L_1_R_1_[，]_[系统]':[5,10],
+                    'W_NER_L_1_R_1_[O]_[O]':[6,25],
+                    'W_LEMMA_L_1_R_2_[，]_[系统 可以]':[7,10],
+                    'W_NER_L_1_R_2_[O]_[O O]':[8,9],
+                    'W_LEMMA_L_1_R_3_[，]_[系统 可以 在]':[9,10],
+                    'W_NER_L_1_R_3_[O]_[O O O]':[10,260],
+                    'W_LEMMA_L_2_R_1_[年底 ，]_[系统]':[11,10],
+                    'W_NER_L_2_R_1_[TIME O]_[O]':[12,250],
+                    'W_LEMMA_L_2_R_2_[年底 ，]_[系统 可以]':[13,10],
+                    'W_NER_L_2_R_2_[TIME O]_[O O]':[14,10],
+                    'W_LEMMA_L_2_R_3_[年底 ，]_[系统 可以 在]':[15,10],
+                    'W_NER_L_2_R_3_[TIME O]_[O O O]':[16,75],
+                    'W_LEMMA_L_3_R_1_[去年 年底 ，]_[系统]':[17,20],
+                    'W_NER_L_3_R_1_[DATE TIME O]_[O]':[18,75],
+                    'W_LEMMA_L_3_R_2_[去年 年底 ，]_[系统 可以]':[19,160],
+                    'W_NER_L_3_R_2_[DATE TIME O]_[O O]':[20,125],
+                    'W_LEMMA_L_3_R_3_[去年 年底 ，]_[系统 可以 在]':[21,110],
+                    'W_NER_L_3_R_3_[DATE TIME O]_[O O O]':[22,140],
+                    'NGRAM_1_[基于]':[23,100],
+                    'NGRAM_2_[基于 深度]':[24,90],
+                    'NGRAM_3_[基于 深度 学习]':[25,120],
+                    'NGRAM_1_[深度]':[26,90],
+                    'NGRAM_2_[深度 学习]':[27,70],
+                    'NGRAM_3_[深度 学习 的]':[28,174],
+                    'NGRAM_1_[学习]':[29,30],
+                    'NGRAM_2_[学习 的]':[30,20],
+                    'NGRAM_3_[学习 的 名为]':[31,52],
+                    'NGRAM_1_[的]':[32,120],
+                    'NGRAM_2_[的 名为]':[33,100],
+                    'NGRAM_3_[的 名为 DeepSpeech]':[34,80],
+                    'NGRAM_1_[名为]':[35,90],
+                    'NGRAM_2_[名为 DeepSpeech]':[36,75],
+                    'NGRAM_1_[DeepSpeech]':[37,60],
+                    'BETW_[conj 基于 ccomp 学习 acl 名为 dobj 系统 compound:nn]':[38,90],
+                    'BETW_L_[conj ccomp acl dobj compound:nn]':[39,75],
+                    'BETW_D_[conj 基于 ccomp 学习 acl 名为 dobj 系统 compound:nn]':[40,60],
+                    'STARTS_WITH_CAPITAL_[False_False]':[41,75],
+                    'LENGTHS_[0_1]':[42,60]
+                };
+
+                var convertData = function (data) {
+                    var res = [];
+                    for (var i = 0; i < data.length; i++) {
+                        var geoCoord = geoCoordMap[data[i].name];
+                        if (geoCoord) {
+                            res.push({
+                                name: data[i].name,
+                                value: geoCoord.concat(data[i].value)
+                            });
+                        }
+                    }
+                    return res;
+                };
+                option = {
+                    title: {
+                        text: '特征数量',
+                    },
+                    tooltip : {},
+                    toolbox: {
+                        feature: {
+                            dataView: {show: true, readOnly: false},
+                            //magicType: {show: true, type: ['line', 'bar']},
+                            restore: {show: true},
+                            saveAsImage: {show: true}
+                        }
+                    },
+                    legend: {
+                        data:['num'],
+
+                    },
+                    xAxis: {
+                        data:['WORD_SEQ_[基于 深度 学习 的 名为 DeepSpeech]',
+                                'LEMMA_SEQ_[基于 深度 学习 的 名为 DeepSpeech]',
+                                'NER_SEQ_[O O O O O O]',
+                                'POS_SEQ_[P NN VV DEC VV NR]',
+                                'W_LEMMA_L_1_R_1_[，]_[系统]',
+                                'W_NER_L_1_R_1_[O]_[O]',
+                                'W_LEMMA_L_1_R_2_[，]_[系统 可以]',
+                                'W_NER_L_1_R_2_[O]_[O O]',
+                                'W_LEMMA_L_1_R_3_[，]_[系统 可以 在]',
+                                'W_NER_L_1_R_3_[O]_[O O O]',
+                                'W_LEMMA_L_2_R_1_[年底 ，]_[系统]',
+                                'W_NER_L_2_R_1_[TIME O]_[O]',
+                                'W_LEMMA_L_2_R_2_[年底 ，]_[系统 可以]',
+                                'W_NER_L_2_R_2_[TIME O]_[O O]',
+                                'W_LEMMA_L_2_R_3_[年底 ，]_[系统 可以 在]',
+                                'W_NER_L_2_R_3_[TIME O]_[O O O]',
+                                'W_LEMMA_L_3_R_1_[去年 年底 ，]_[系统]',
+                                'W_NER_L_3_R_1_[DATE TIME O]_[O]',
+                                'W_LEMMA_L_3_R_2_[去年 年底 ，]_[系统 可以]',
+                                'W_NER_L_3_R_2_[DATE TIME O]_[O O]',
+                                'W_LEMMA_L_3_R_3_[去年 年底 ，]_[系统 可以 在]',
+                                'W_NER_L_3_R_3_[DATE TIME O]_[O O O]',
+                                'NGRAM_1_[基于]',
+                                'NGRAM_2_[基于 深度]',
+                                'NGRAM_3_[基于 深度 学习]',
+                                'NGRAM_1_[深度]',
+                                'NGRAM_2_[深度 学习]',
+                                'NGRAM_3_[深度 学习 的]',
+                                'NGRAM_1_[学习]',
+                                'NGRAM_2_[学习 的]',
+                                'NGRAM_3_[学习 的 名为]',
+                                'NGRAM_1_[的]',
+                                'NGRAM_2_[的 名为]',
+                                'NGRAM_3_[的 名为 DeepSpeech]',
+                                'NGRAM_1_[名为]',
+                                'NGRAM_2_[名为 DeepSpeech]',
+                                'NGRAM_1_[DeepSpeech]',
+                                'BETW_[conj 基于 ccomp 学习 acl 名为 dobj 系统 compound:nn]',
+                                'BETW_L_[conj ccomp acl dobj compound:nn]',
+                                'BETW_D_[conj 基于 ccomp 学习 acl 名为 dobj 系统 compound:nn]',
+                                'STARTS_WITH_CAPITAL_[False_False]',
+                                'LENGTHS_[0_1]' ]
+                        },
+                    yAxis: {},
+                    series : [
+                        {
+                            name: '',
+                            type: 'scatter',
+                            data: convertData(data),
+                            symbolSize: function (val) {
+                                return val[2];
+                            },
+                            itemStyle: {
+                                normal: {
+                                    color: '#2694e8'
+                                }
+                            },
+                            label:{
+                                normal:{
+                                }
+                            }
+                        }
+                    ]
+                };
+
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option);
+            </script>
+            </div>
+        </div>
+    </div>
+    <!-- 第四个图，期望，-->
+    <div class = "col-md-12">
+        <div class="panel panel-default ">
+	        <header class="panel-heading">
+	            期望 :
+	        </header>
+            <div class = "panel-body ">
+                <div id="qiwang" style="width: 100%;height:400px;"></div>
+                <script type="text/javascript">
+                // 基于准备好的dom，初始化echarts实例
+                var myChart = echarts.init(document.getElementById('qiwang'));
+
+                // 指定图表的配置项和数据
+                var option = {
+                    title: {
+                        text: '期望'
+                    },
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                            type: 'cross',
+                            crossStyle: {
+                                color: '#999'
+                            }
+                        }
+                    },
+                    toolbox: {
+                        feature: {
+                            dataView: {show: true, readOnly: false},
+                            magicType: {show: true, type: ['line', 'bar']},
+                            restore: {show: true},
+                            saveAsImage: {show: true}
+                        }
+                    },
+                    legend: {
+                        data:['accuracy','count']
+                    },
+                    xAxis: {
+                        type: 'category',
+                        data: ['0-0.1','0.1-0.2','0.2-0.3','0.3-0.4','0.4-0.5','0.5-0.6','0.6-0.7','0.7-0.8','0.8-0.9','0.9-1.0'],
+                        axisLabel:{
+                            interval: 0
+                        },
+                        axisPointer: {
+                            type: 'shadow'
+                        }
+                    },
+                    yAxis: [
+                         {
+                            type: 'value',
+                            name: 'count',
+                            min: 0,
+                            max: 5,
+                            interval: 1,
+                            axisLabel: {
+                                formatter: '{value}C'
+                            }
+                        },
+                        {
+                            type: 'value',
+                            name: 'accuracy',
+                            min: 0,
+                            max: 1,
+                            interval: 0.2,
+                            axisLabel: {
+                                formatter: '{value}'
+                            }
+                        }
+                    ],
+                    series: [{
+                        name: 'count',
+                        type: 'bar',
+                        data: [0.01,0.01,0.01,0.01,0.1,0.1,0.2,0.3,1,5],
+                        barWidth: 60,
+                        itemStyle: {
+                            normal: {
+                                color: '#2694e8'
+                            }
+                        },
+                         label: {
+                            normal:{
+                                //show: true,
+                                //position: 'insideTop'
+                            }
+                        }
+                    },
+                     {
+                        name: 'accuracy',
+                        type: 'line',
+                        data: [1,0,0,0,0.7,0,0.4,0.39,0.18,0.25],
+                         yAxisIndex: 1,
+                        itemStyle: {
+                            normal: {
+                                color: '#2694e8'
+                            }
+                        },
+                          label: {
+                            normal:{
+                                //show: true,
+                                //position: 'insideTop'
+                            }
+                        }
+                     }]
+                };
+
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option);
+            </script>
+            </div>
+        </div>
+    </div>
+    <!-- 第五个图，趋势，-->
+    <div class = "col-md-12">
+        <div class="panel panel-default ">
+	        <header class="panel-heading">
+	            趋势 :
+	        </header>
+            <div class = "panel-body ">
+                <div id="qushi" style="width: 100%;height:400px;"></div>
+                <script type="text/javascript">
+                // 基于准备好的dom，初始化echarts实例
+                var myChart = echarts.init(document.getElementById('qushi'));
+
+                // 指定图表的配置项和数据
+                var option = {
+                    title: {
+                        text: '趋势'
+                    },
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                            type: 'cross',
+                            crossStyle: {
+                                color: '#999'
+                            }
+                        }
+                    },
+                    toolbox: {
+                        feature: {
+                            dataView: {show: true, readOnly: false},
+                            magicType: {show: true, type: ['line', 'bar']},
+                            restore: {show: true},
+                            saveAsImage: {show: true}
+                        }
+                    },
+                    legend: {
+                        data:['expection']
+                    },
+                    xAxis: {
+                        type: 'category',
+                        data: ['2018-4-25 15:20:33','2018-4-30 11:56:53'],
+                        axisLabel:{
+                            interval: 0
+                        },
+                        axisPointer: {
+                            type: 'shadow'
+                        }
+                    },
+                    yAxis: [
+                        {
+                            type: 'value',
+                            name: 'expection',
+                            min: 0,
+                            max: 1,
+                            interval: 0.2,
+                        }
+                    ],
+                    series: [
+                     {
+                        name: 'expection',
+                        type: 'line',
+                        data: [0.85,0.9],
+                        itemStyle: {
+                            normal: {
+                                color: '#2694e8'
+                            }
+                        },
+                          label: {
+                            normal:{
+                                //show: true,
+                                //position: 'insideTop'
+                            }
+                        }
+                     }]
+                };
+
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option);
+            </script>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}
