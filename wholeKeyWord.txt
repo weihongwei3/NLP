@@ -1,0 +1,4848 @@
+人工智能
+artificial intelligence
+AI机器学习
+machine learning
+ML数据挖掘
+data mining
+DM神经网络
+neural networks
+NN决策支持系统
+decision support system
+DSS蚁群优化算法
+ant colony optimization
+ACO遗传算法
+genetic algorithm
+GA决策支持系统
+decision support systems
+DSS群体智能
+swarm intelligence
+SI神经网络
+neural network
+NN模糊逻辑
+fuzzy logic
+FL支持向量机
+support vector machine
+SVM特征选择
+feature selection
+FS粒子群优化算法
+particle swarm optimization
+PSO人工神经网络
+artificial neural networks
+ANN遗传算法
+genetic algorithms
+GA计算智能
+computational intelligence
+CI人工神经网络
+artificial neural network
+ANN模式识别
+pattern recognition
+PR自然语言处理
+natural language processing
+NLP主动学习
+active learning
+AL专家系统
+expert systems
+ES特征提取
+feature extraction
+FE支持向量机
+support vector machines
+SVM专家系统
+expert system
+ES知识表示
+knowledge representation
+KR图像处理
+image processing
+IP强化学习
+reinforcement learning
+RL决策支持
+decision support
+DS环境智能
+ambient intelligence
+*计算机视觉
+computer vision
+CV大数据
+big data
+BD基于案例的推理
+case-based reasoning
+CBR云计算
+cloud computing
+CC决策制定
+decision making
+DM多智能体系统
+multi-agent systems
+MAS信息检索
+information retrieval
+IR图像分割
+image segmentation
+*深度学习
+deep learning
+DL故障诊断
+fault diagnosis
+FD文本挖掘
+text mining
+TM智能代理
+intelligent agents
+IA语义网
+semantic web
+SW遗传编程
+genetic programming
+GP进化计算
+evolutionary computation
+EC情感分析
+sentiment analysis
+SA决策树
+decision tree
+DT随机森林
+random forest
+RF进化算法
+evolutionary algorithms
+EA人脸识别
+face recognition
+FR知识管理
+knowledge management
+KM无线传感器网络
+wireless sensor networks
+WSN贝叶斯网络
+bayesian networks
+BN智能系统
+intelligent systems
+IS多目标优化
+multi-objective optimization
+MOO监督学习
+supervised learning
+SL差分进化
+differential evolution
+DE多智能体系统
+multi-agent system
+MAS决策树
+decision trees
+DT信息提取
+information extraction
+IE蚁群优化算法
+ant colony optimization (aco)
+*异常检测
+anomaly detection
+AD主成分分析
+principal component analysis
+PCA无监督学习
+unsupervised learning
+UL进化算法
+evolutionary algorithm
+EA知识获取
+knowledge acquisition
+KA入侵检测
+intrusion detection
+ID模糊集
+fuzzy sets
+FS基于知识的系统
+knowledge-based systems
+KBS路径规划
+path planning
+PP模拟退火
+simulated annealing
+SA降维
+dimensionality reduction
+DR人工蜂群
+artificial bee colony
+ABC粗糙集
+rough sets
+RS知识发现
+knowledge discovery
+KD无线传感器网络
+wireless sensor network
+WSN粗糙集
+rough set
+RS遥感
+remote sensing
+RS半监督学习
+semi-supervised learning
+SSL时间序列
+time series
+TS虚拟现实
+virtual reality
+VR博弈论
+game theory
+GT贝叶斯网络
+bayesian network
+BN智能教学系统
+intelligent tutoring systems
+ITS小波变换
+wavelet transform
+WT社会化媒体
+social media
+*推荐系统
+recommender systems
+RS物联网
+internet of things
+IOT知识库
+knowledge base
+KB多智能体系统
+multiagent systems
+MAS人机交互
+human-computer interaction
+HCI支持向量回归
+support vector regression
+SVR分布式人工智能
+distributed artificial intelligence
+DAI图像分类
+image classification
+*活动识别
+activity recognition
+AR乳腺癌
+breast cancer
+BC知识工程
+knowledge engineering
+KE文本分类
+text classification
+TC物体识别
+object recognition
+OR模式分类
+pattern classification
+*集成学习
+ensemble learning
+*社交网络
+social networks
+SNLogistic回归
+logistic regression
+LR图像分析
+image analysis
+IA组合优化
+combinatorial optimization
+CO移动机器人
+mobile robot
+MR信号处理
+signal processing
+SP数据融合
+data fusion
+DF软计算
+soft computing
+SC粒子群优化算法
+particle swarm optimization (pso)
+*数据分析
+data analysis
+*协同过滤
+collaborative filtering
+CF蚁群算法
+ant colony algorithm
+ACO情感计算
+affective computing
+AC软件工程
+software engineering
+SE自适应控制
+adaptive control
+AC逻辑程序设计
+logic programming
+LP模糊系统
+fuzzy systems
+FS互信息
+mutual information
+MI定性推理
+qualitative reasoning
+QR全局优化
+global optimization
+GO绩效评价
+performance evaluation
+*人工蜂群算法
+artificial bee colony algorithm
+ABCA极限学习机
+extreme learning machine
+ELMWeb服务
+web services
+WS人工免疫系统
+artificial immune system
+AIS计算机科学
+computer science
+CS计算机辅助诊断
+computer-aided diagnosis
+CAD智能电网
+smart grid
+SG边缘检测
+edge detection
+*信息系统
+information systems
+IS能源效率
+energy efficiency
+EE模糊控制
+fuzzy control
+FQLC语音识别
+speech recognition
+SR认知科学
+cognitive science
+CS动态规划
+dynamic programming
+DP元胞自动机
+cellular automata
+CA数据仓库
+data warehouse
+DW问答系统
+question answering
+QA在线学习
+online learning
+OL人类与机器人互动
+human-robot interaction
+HRI局部搜索
+local search
+LS人工生命
+artificial life
+AL信息融合
+information fusion
+IF移动机器人
+mobile robots
+*普适计算
+ubiquitous computing
+UC商业智能
+business intelligence
+BI机器视觉
+machine vision
+MV并行计算
+parallel computing
+*核方法
+kernel methods
+*基于知识的系统
+knowledge-based system
+KBS意见挖掘
+opinion mining
+OM社会网络
+social network
+SN模糊聚类
+fuzzy clustering
+FC-PFS信息技术
+information technology
+IT约束满足
+constraint satisfaction
+CS人工神经网络
+artificial neural network (ann)
+*增量学习
+incremental learning
+IL禁忌搜索算法
+tabu search
+TS关联规则
+association rules
+AR故障检测
+fault detection
+FD随机森林
+random forests
+RF智能控制
+intelligent control
+IC图像配准
+image registration
+IR目标检测
+object detection
+*迁移学习
+transfer learning
+TL图灵测试
+turing test
+TT智能代理
+intelligent agent
+IA粗糙集理论
+rough set theory
+RST隐藏马尔可夫模型
+hidden markov model
+HMM风险评估
+risk assessment
+*启发式搜索
+heuristic search
+HS计算复杂性
+computational complexity
+CC网络安全
+network security
+*多目标优化
+multiobjective optimization
+MOO分布式计算
+distributed computing
+*稀疏表示
+sparse representation
+SR多层感知器
+multilayer perceptron
+MLP分布式系统
+distributed systems
+DS风险管理
+risk management
+*流形学习
+manifold learning
+ML图像检索
+image retrieval
+*推荐系统
+recommender system
+RS临床决策支持系统
+clinical decision support systems
+CDSS时间推理
+temporal reasoning
+TR认知无线电
+cognitive radio
+CR图论
+graph theory
+GT系统辨识
+system identification
+SI线性规划
+linear programming
+LP磁共振成像
+magnetic resonance imaging
+MRI解决问题
+problem solving
+PS萤火虫算法
+firefly algorithm
+FA蚁群优化算法
+ant colony optimization algorithm
+ACOA模型选择
+model selection
+MS机器智能
+machine intelligence
+MI情感识别
+emotion recognition
+ER临床决策支持系统
+clinical decision support system
+CDSS机器学习算法
+machine learning algorithms
+MLA参数估计
+parameter estimation
+PE负载平衡
+load balancing
+LB聚类分析
+cluster analysis
+CA信息理论
+information theory
+IT增强现实
+augmented reality
+ARWeb挖掘
+web mining
+*Kalman滤波
+kalman filter
+KFk-均值群集
+k-means clustering
+KM人脸检测
+face detection
+*旅行商问题
+traveling salesman problem
+TSP电力系统
+power system
+PS数学模型
+mathematical model
+MICMOD隐藏马尔可夫模型
+hidden markov models
+HMM资源分配
+resource allocation
+RA自组织映射
+self-organizing maps
+SOM手势识别
+gesture recognition
+GR基于案例的推理
+case based reasoning
+CBR社会网络分析
+social network analysis
+SNA供应链管理
+supply chain management
+SCM自组织映射
+self-organizing map
+SOM人机交互
+human computer interaction
+HCI基因表达
+gene expression
+GE项目管理
+project management
+PM能源消费
+energy consumption
+EC状态监测
+condition monitoring
+CM并行处理
+parallel processing
+*普适计算
+pervasive computing
+*人工免疫系统
+artificial immune systems
+AIS相似性度量
+similarity measure
+SM早老性痴呆
+alzheimer's disease
+*医疗诊断
+medical diagnosis
+*智能教学系统
+intelligent tutoring system
+ITS服务质量
+quality of service
+*那ï朴素贝叶斯
+naïve bayes
+*卷积神经网络
+convolutional neural networks
+CNN语境意识
+context awareness
+*辅助生活环境
+ambient assisted living
+AAL自治代理
+autonomous agents
+AA反向传播
+back propagation
+BP性能分析
+performance analysis
+*语义相似性
+semantic similarity
+SS约束编程
+constraint programming
+CP粒度计算
+granular computing
+*模糊集
+fuzzy set
+FS传感器融合
+sensor fusion
+*恶意软件检测
+malware detection
+MD医学信息学
+medical informatics
+MI复杂系统
+complex systems
+*协作学习
+collaborative learning
+CL循环神经网络
+recurrent neural networks
+RNN计算模型
+computational modeling
+*petri网
+petri nets
+PN命名实体识别
+named entity recognition
+NER供应链
+supply chain
+SC严肃游戏
+serious games
+SG最优控制
+optimal control
+OP网格计算
+grid computing
+GC数据聚类
+data clustering
+*循环神经网络
+recurrent neural network
+RNN层次分析法
+analytic hierarchy process
+AHP线性鉴别分析
+linear discriminant analysis
+LDA群机器人
+swarm robotics
+SR用户建模
+user modeling
+UM自然语言
+natural language
+NL目标跟踪
+object tracking
+*蚁群
+ant colony
+ACWeb服务
+web service
+WS文本分类
+text categorization
+TCBP神经网络
+bp neural network
+BPNN朴素贝叶斯
+naive bayes
+NB电能质量
+power quality
+PQ入侵检测系统
+intrusion detection system
+IDS智能家居
+smart home
+SH层次聚类
+hierarchical clustering
+HC智能系统
+intelligent system
+IS敏感性分析
+sensitivity analysis
+SA信息安全
+information security
+IS卷积神经网络
+convolutional neural network
+CNN模糊C均值聚类
+fuzzy c-means
+FCM属性约简
+attribute reduction
+AR模糊神经网络
+fuzzy neural network
+FNN传感器网络
+sensor networks
+SN异常检测
+outlier detection
+*神经网络
+neural nets
+NN图像识别
+image recognition
+*临床决策支持
+clinical decision support
+CDS模糊推理系统
+fuzzy inference system
+FIS独立分量分析
+independent component analysis
+ICA自动推理
+automated reasoning
+*关联数据
+linked data
+LD信息系统
+information system
+IS数据集成
+data integration
+DI访问控制
+access control
+*用户体验
+user experience
+UX集体智慧
+collective intelligence
+CI主成分分析（PCA）
+principal component analysis (pca)
+*人为因素
+human factors
+HF机器翻译
+machine translation
+MT非单调推理
+nonmonotonic reasoning
+*约束优化
+constrained optimization
+*软件代理
+software agents
+*径向基函数
+radial basis function
+RBF字典学习
+dictionary learning
+DL基于知识的系统
+knowledge based systems
+KBS计算机模拟
+computer simulation
+*统计分析
+statistical analysis
+SA过程控制
+process control
+PC粒子滤波
+particle filter
+PF避障
+obstacle avoidance
+*混合动力系统
+hybrid systems
+HS医学影像学
+medical imaging
+*模糊集理论
+fuzzy set theory
+FST知识提取
+knowledge extraction
+KE车辆路径问题
+vehicle routing problem
+VRP软件测试
+software testing
+*概念漂移
+concept drift
+*信念修正
+belief revision
+*电力系统
+power systems
+PS嵌入式系统
+embedded systems
+ERTS动作识别
+action recognition
+*模糊推理
+fuzzy inference
+*模式匹配
+pattern matching
+PM控制系统
+control systems
+CS纹理分析
+texture analysis
+TA自适应系统
+adaptive systems
+*形式概念分析
+formal concept analysis
+FCA创新计算
+computational creativity
+CC谱聚类算法
+spectral clustering
+SC有监督的机器学习
+supervised machine learning
+SML预测模型
+predictive models
+*不平衡数据
+imbalanced data
+*贝叶斯推理
+bayesian inference
+BI群体决策
+group decision making
+GDM奇异值分解
+singular value decomposition
+SVD时间序列分析
+time series analysis
+TSA有限元法
+finite element method
+FEM人工智能
+artificial intelligent
+AI认知信息学
+cognitive informatics
+CI监督分类
+supervised classification
+*认知建模
+cognitive modeling
+*软件体系结构
+software architecture
+SA可再生能源
+renewable energy
+RE模糊系统
+fuzzy system
+FS电脑游戏
+computer games
+*进化计算
+evolutionary computing
+EC移动计算
+mobile computing
+*关联规则挖掘
+association rule mining
+ARM数据可视化
+data visualization
+*统计学习
+statistical learning
+SL用户界面
+user interface
+UI水质
+water quality
+*信息可视化
+information visualization
+IV工程教育
+engineering education
+EE模糊推理
+fuzzy reasoning
+FCBR社区检测
+community detection
+*急救管理
+emergency management
+EM线性回归
+linear regression
+LR计算机辅助设计
+computer-aided design
+CAD回归分析
+regression analysis
+RA情境意识
+situation awareness
+SA复杂网络
+complex networks
+*移动代理
+mobile agent
+MA图像融合
+image fusion
+*图形模型
+graphical models
+*模型检验
+model checking
+MC容错
+fault tolerance
+FT稀疏编码
+sparse coding
+SC地理信息系统
+geographic information system
+GIS条件随机域
+conditional random fields
+CRF空间推理
+spatial reasoning
+SR感应电动机
+induction motor
+IM离散小波变换
+discrete wavelet transform
+DWT系统动力学
+system dynamics
+SD电子商务
+electronic commerce
+EC高斯混合模型
+gaussian mixture model
+GMM数据分析
+data analytics
+DA进化机器人技术
+evolutionary robotics
+ER资源管理
+resource management
+RM能源管理
+energy management
+EM优化方法
+optimization methods
+*基于模型的诊断
+model-based diagnosis
+MBD决策分析
+decision analysis
+DA近似推理
+approximate reasoning
+AR蚁群优化
+ant colony optimisation
+ACO计算机断层扫描
+computed tomography
+CTk-近邻
+k-nearest neighbor
+KNN面部表情识别
+facial expression recognition
+FER集成方法
+ensemble methods
+EM图像增强
+image enhancement
+*文化基因算法
+memetic algorithm
+MA高等教育
+higher education
+HE决策支持系统（DSS）
+decision support systems (dss)
+*多准则决策
+multi-criteria decision making
+MCDM降维
+dimension reduction
+DR基于内容的图像检索
+content-based image retrieval
+CBIR脑机接口
+brain-computer interface (bci)
+*类不平衡
+class imbalance
+*学习系统
+learning systems
+*分布式发电
+distributed generation
+DGPID控制器
+pid controller
+*人工智能技术
+artificial intelligence techniques
+AIT分类算法
+classification algorithms
+*可能性理论
+possibility theory
+*情感分类
+sentiment classification
+SC服务组合
+service composition
+*质量控制
+quality control
+QC决策理论
+decision theory
+DT传感器网络
+sensor network
+SN认知计算
+cognitive computing
+CC事件检测
+event detection
+ED归纳逻辑程序设计
+inductive logic programming
+ILP模糊认知图
+fuzzy cognitive maps
+FCM基于主体建模
+agent-based modeling
+ABM非线性系统
+nonlinear systems
+*参数优化
+parameter optimization
+*变量选择
+variable selection
+VS防撞
+collision avoidance
+CA相关反馈
+relevance feedback
+RF数据质量
+data quality
+DQ知识表示与推理
+knowledge representation and reasoning
+*计算机图形学
+computer graphics
+CG规则提取
+rule extraction
+RE案例研究
+case study
+*人工智能规划
+ai planning
+*工艺规划
+process planning
+PP光流
+optical flow
+OF判别分析
+discriminant analysis
+DA模板匹配
+template matching
+TM网络安全
+cyber security
+*数学形态学
+mathematical morphology
+MM概念设计
+conceptual design
+*数据处理
+data processing
+DP高斯过程
+gaussian process
+GP高斯过程
+gaussian processes
+GP静态分析
+static analysis
+SA矩阵分解
+matrix factorization
+MF约束满足问题
+constraint satisfaction problem
+CSP认知结构
+cognitive architecture
+CA文本分析
+text analysis
+*归纳学习
+inductive learning
+*视频监控
+video surveillance
+*教育数据挖掘
+educational data mining
+EDM嵌入式系统
+embedded system
+*模糊规则
+fuzzy rules
+FR计算语言学
+computational linguistics
+CL数值模拟
+numerical simulation
+*电子健康记录
+electronic health records
+EHR气候变化
+climate change
+CC可持续发展
+sustainable development
+SD回答集编程
+answer set programming
+ASP数据流
+data streams
+DS词义消歧
+word sense disambiguation
+WSD函数逼近
+function approximation
+*变化检测
+change detection
+CD负荷预测
+load forecasting
+LF丢失数据
+missing data
+MDD-S证据理论
+dempster-shafer theory
+DS辅助技术
+assistive technology
+AT分类器集成
+classifier ensemble
+*可穿戴式传感器
+wearable sensors
+*模糊神经网络
+fuzzy neural networks
+FNN马尔可夫链
+markov chain
+MC基于Agent的仿真
+agent-based simulation
+ABS信用评分
+credit scoring
+*地理信息系统
+geographic information systems
+GIS计算生物学
+computational biology
+CB冲突解决
+conflict resolution
+CR多标签分类
+multi-label classification
+MLC实时
+real time
+RTPID控制
+pid control
+*软件质量
+software quality
+*任务调度
+task scheduling
+*聚类算法
+clustering algorithms
+*压缩感知
+compressed sensing
+CS大数据分析
+big data analytics
+*眼睛跟踪
+eye tracking
+*智慧城市
+smart city
+*信息增益
+information gain
+IG领域适应性
+domain adaptation
+DA规则系统
+rule-based systems
+RBS语义网络
+semantic networks
+SN函数优化
+function optimization
+*健身功能
+fitness function
+*隶属函数
+membership function
+MF预测模型
+prediction model
+*自动语音识别
+automatic speech recognition
+ASR模式分析
+pattern analysis
+*步态分析
+gait analysis
+GA运动分析
+motion analysis
+*定性空间推理
+qualitative spatial reasoning
+QSR概率推理
+probabilistic reasoning
+PR图像理解
+image understanding
+IU智能决策支持系统
+intelligent decision support system
+IDSS规则归纳
+rule induction
+RI移动设备
+mobile devices
+*量子计算
+quantum computing
+QC搜索引擎
+search engine
+SE蚁群系统
+ant colony system
+ACS可视化分析
+visual analytics
+VA表面粗糙度
+surface roughness
+SR任务分配
+task allocation
+TA运动估计
+motion estimation
+ME仿人机器人
+humanoid robot
+HR模态逻辑
+modal logic
+ML进化规划
+evolutionary programming
+EP学习分析
+learning analytics
+LA混合算法
+hybrid algorithm
+HA基因选择
+gene selection
+GLGS小波分析
+wavelet analysis
+WA整数规划
+integer programming
+IP基因表达数据
+gene expression data
+GED用户界面
+user interfaces
+UI虚拟筛选
+virtual screening
+VS信息管理
+information management
+IM基于规则的推理
+rule-based reasoning
+RBR最近邻
+nearest neighbor
+NN自动规划
+automated planning
+AP机器学习技术
+machine learning techniques
+MLT空间决策支持系统
+spatial decision support system
+SDSS智能家居
+smart homes
+SH基因表达式编程
+gene expression programming
+GEP因子分析
+factor analysis
+FA知识库
+knowledge bases
+KB数据采集
+data acquisition
+DAQ预测分析
+predictive analytics
+PA主题建模
+topic modeling
+TM马尔可夫决策过程
+markov decision process
+MDP关联规则
+association rule
+ARHough变换
+hough transform
+HT多智能体系统
+multiagent system
+MAS糖尿病性视网膜病变
+diabetic retinopathy
+DR深度神经网络
+deep neural networks
+DNN过程挖掘
+process mining
+PM数学规划
+mathematical programming
+MP智能电网
+smart grids
+SG信息处理
+information processing
+IP蒙特卡罗仿真
+monte carlo simulation
+MCSChoquet积分
+choquet integral
+CI临床指南
+clinical guidelines
+CG状态估计
+state estimation
+SE联想记忆
+associative memory
+AM粒子群优化算法
+particle swarm optimisation
+PSO数据科学
+data science
+DS蝙蝠算法
+bat algorithm
+BA脑机接口
+brain-computer interface
+BCI知识共享
+knowledge sharing
+KS多核学习
+multiple kernel learning
+MKL描述逻辑
+description logics
+DL自适应神经模糊推理系统
+adaptive neuro-fuzzy inference system
+ANFIS问答系统
+question answering system
+QAS软件开发
+software development
+SD自主计算
+autonomic computing
+AC旅行商问题
+travelling salesman problem
+TSP计算机辅助探测
+computer-aided detection
+CAD通用人工智能
+artificial general intelligence
+AGI计算机辅助诊断
+computer aided diagnosis
+CAD推理机
+inference engine
+IE蒙特卡罗树搜索
+monte carlo tree search
+MCTS聚类算法
+clustering algorithm
+CDD自治系统
+autonomous systems
+AS前列腺癌
+prostate cancer
+PC灾害管理
+disaster management
+DM背景减法
+background subtraction
+BS自然语言生成
+natural language generation
+NLG网络管理
+network management
+NM移动代理
+mobile agents
+MA细胞神经网络
+cellular neural networks
+CNN离散事件仿真
+discrete event simulation
+DES自然语言理解
+natural language understanding
+NLUPetri网
+petri net
+PN自动定理证明
+automated theorem proving
+ATP作业研究
+operations research
+OR纳什均衡
+nash equilibrium
+NE粒子群
+particle swarm
+PS分布式系统
+distributed system
+DS语义分析
+semantic analysis
+SA柔性制造系统
+flexible manufacturing systems
+FMS实例选择
+instance selection
+IS智能交通系统
+intelligent transportation systems
+ITS多层感知器
+multi-layer perceptron
+MLP结构健康监测
+structural health monitoring
+SHM描述逻辑
+description logic
+DL动态时间规整
+dynamic time warping
+DTW粒子群优化算法
+particle swarm optimization algorithm
+PSOA计算机网络
+computer networks
+CN模糊逻辑控制器
+fuzzy logic controller
+FLC推荐系统
+recommendation system
+RS混合模型
+hybrid model
+HACM和声搜索
+harmony search
+HS关系抽取
+relation extraction
+RE群体决策支持系统
+group decision support systems
+GDSS经济调度
+economic dispatch
+ED文化遗产
+cultural heritage
+CH局部二进制模式
+local binary pattern
+LBP人类行为识别
+human activity recognition
+HAR受限波尔兹曼机
+restricted boltzmann machine
+RBM优化算法
+optimization algorithm
+OA逆向工程
+reverse engineering
+RE多主体模拟
+multi-agent simulation
+MABS基因本体论
+gene ontology
+GO隐含狄利克雷分布
+latent dirichlet allocation
+LDA虚拟环境
+virtual environment
+VE信息熵
+information entropy
+IE高性能计算
+high performance computing
+HPC一类分类
+one-class classification
+OCC数学建模
+mathematical modeling
+MM约束满足问题
+constraint satisfaction problems
+CSP欧氏距离
+euclidean distance
+ED相关向量机
+relevance vector machine
+RVM蒙特卡罗
+monte carlo
+MC推荐系统
+recommendation systems
+RS引力搜索算法
+gravitational search algorithm
+GSA心脏病：
+heart disease
+HD时间序列预测
+time series forecasting
+TSF经验模式分解
+empirical mode decomposition
+EMD跌倒检测
+fall detection
+FD盲源分离
+blind source separation
+BSS链接预测
+link prediction
+LP运动捕捉
+motion capture
+MOCAP马氏距离
+mahalanobis distance
+MD移动自组织网络
+mobile ad hoc networks
+MANET图灵机
+turing machine
+TMKalman滤波
+kalman filtering
+KF制造系统
+manufacturing systems
+MS基于模型的推理
+model-based reasoning
+MBR最优潮流
+optimal power flow
+OPF系统设计
+system design
+SD形式化方法
+formal methods
+FM精准农业
+precision agriculture
+PA蛋白质结构预测
+protein structure prediction
+PSP动力系统
+dynamical systems
+DS水管理
+water management
+WSMDSS最短路径
+shortest path
+SP克隆选择
+clonal selection
+CS学生建模
+student modeling
+SM布谷鸟搜索
+cuckoo search
+CS智能环境
+intelligent environments
+IE07矢量量化
+vector quantization
+VQ模糊建模
+fuzzy modeling
+FM万维网
+world wide web
+WWW电子鼻
+electronic nose
+EN复杂系统
+complex system
+CTOS面向服务的体系结构
+service-oriented architecture
+SOA自组织网络
+ad hoc networks
+AROD关系数据库
+relational database
+RDB径向基神经网络
+rbf neural network
+RBFNN开放源代码
+open source
+OS人机交互
+human-machine interaction
+HMI互动学习机
+interactive machine learning
+IML网络物理系统
+cyber-physical systems
+CPS健康信息学
+health informatics
+HI模糊控制器
+fuzzy controller
+FC车辆路径
+vehicle routing
+VRP启发式算法
+heuristic algorithms
+HA马尔可夫决策过程
+markov decision processes
+MDP非负矩阵分解
+non-negative matrix factorization
+NMF贝叶斯学习
+bayesian learning
+BL前馈神经网络
+feedforward neural networks
+FANN马尔可夫随机场
+markov random fields
+MRF层次分析法
+analytical hierarchy process
+AHP信息过滤
+information filtering
+IF本体学习
+ontology learning
+OL学习自动机
+learning automata
+LA需求工程
+requirements engineering
+RE人工鱼群算法
+artificial fish swarm algorithm
+AFSA核密度估计
+kernel density estimation
+KDE图匹配
+graph matching
+GM随机优化
+stochastic optimization
+SO机器学习算法
+machine learning algorithm
+MLA有限元分析
+finite element analysis
+FEA面向对象的程序设计
+object-oriented programming
+OOP实时系统
+real-time systems
+RTOS语义网络
+semantic network
+SN计算机辅助设计
+computer aided design
+CAD二分类
+binary classification
+BDS数字信号处理
+digital signal processing
+DSP作业车间调度
+job shop scheduling
+JSS小波变换
+wavelet transforms
+WTWeb使用挖掘
+web usage mining
+WUM手写识别
+handwriting recognition
+HR交互式叙事方式
+interactive storytelling
+IS远程学习
+distance learning
+DL模糊认知图
+fuzzy cognitive map
+FCM潜在语义分析
+latent semantic analysis
+LSA重症监护
+intensive care
+IC计算机辅助诊断
+computer-assisted diagnosis
+CAD反向传播神经网络
+back propagation neural network
+BPNN竞争学习
+competitive learning
+CL模糊逻辑控制
+fuzzy logic control
+FLC预测控制
+predictive control
+PGMC离散事件系统
+discrete event systems
+DES缺失值
+missing values
+MV期望最大化
+expectation maximization
+EM微分进化算法
+differential evolution algorithm
+DEA分形维数
+fractal dimension
+FD向量空间模型
+vector space model
+VSM缺省逻辑
+default logic
+DL业务流程
+business process
+BP多标记学习
+multi-label learning
+MIML场景分析
+scene analysis
+SA虹膜识别
+iris recognition
+IR需求响应
+demand response
+DR数据聚集
+data aggregation
+DA特征子集选择
+feature subset selection
+FSS高斯混合模型
+gaussian mixture models
+GMM不断优化
+continuous optimization
+CFSO免疫算法
+immune algorithm
+IA半监督学习
+semisupervised learning
+SL电子健康记录
+electronic health record
+EHR指称数学
+denotational mathematics
+DM多任务学习
+multi-task learning
+MTL定性仿真
+qualitative simulation
+QS语音合成
+speech synthesis
+SS光学字符识别
+optical character recognition
+OCR基于规则的系统
+rule-based system
+RBSK近邻
+k-nearest neighbors
+KNN贪心算法
+greedy algorithm
+GSAT离散余弦变换
+discrete cosine transform
+DCT在线社交网络
+online social networks
+OSN梯度下降
+gradient descent
+GD复杂事件处理
+complex event processing
+CEP蛋白质-蛋白质相互作用
+protein-protein interaction
+PPI非负矩阵分解
+nonnegative matrix factorization
+NMF质谱法
+mass spectrometry
+MS链接开放数据
+linked open data
+LOD径向基函数神经网络
+radial basis function neural network
+RBFNN废水处理
+wastewater treatment
+WWTMemetic算法
+memetic algorithms
+MA线性矩阵不等式
+linear matrix inequality
+LMI多机器人系统
+multi-robot systems
+MRS滑模控制
+sliding mode control
+SMC蒙特卡洛树搜索
+monte-carlo tree search
+MCTS交叉验证
+cross validation
+CV图像质量评价
+image quality assessment
+IQA查询扩展
+query expansion
+QE决策支持系统
+decision-support systems
+DSS数字图像处理
+digital image processing
+DIP结构学习
+structure learning
+STSL动态贝叶斯网络
+dynamic bayesian networks
+DBN学习矢量量化
+learning vector quantization
+LVQ数学模型
+mathematical models
+MM系统工程
+systems engineering
+SE置信传播
+belief propagation
+BP社会仿真
+social simulation
+SS时间延迟
+time delay
+TD故障定位
+fault location
+FL脑机接口
+brain computer interface
+BCI二次规划
+quadratic programming
+QP以用户为中心的设计
+user-centered design
+UCD局部二进制模式
+local binary patterns
+LBP人体动作识别
+human action recognition
+HAR电力市场
+electricity markets
+EM医学决策支持系统
+medical decision support systems
+MDSS区域生长
+region growing
+RG网络智能
+web intelligence
+WI电动汽车
+electric vehicle
+EV轻度认知障碍
+mild cognitive impairment
+MCI网络入侵检测
+network intrusion detection
+NID最大熵
+maximum entropy
+ME模型预测控制
+model predictive control
+MPC入侵检测系统
+intrusion detection systems
+IDS工程设计
+engineering design
+ED糖尿病
+diabetes mellitus
+DM神经模糊系统
+neuro-fuzzy system
+NFS具身认知
+embodied cognition
+EC短期负荷预测
+short-term load forecasting
+STLF面向服务的体系结构
+service oriented architecture
+SOA扩散张量成像
+diffusion tensor imaging
+DTI降噪
+noise reduction
+NRWeb服务组合
+web service composition
+WSC均值漂移
+mean shift
+MS一阶逻辑
+first-order logic
+FOL预测模型
+predictive model
+PM深度神经网络
+deep neural network
+DNN直觉模糊集
+intuitionistic fuzzy sets
+IFS机制设计
+mechanism design
+MD数字水印
+digital watermarking
+DW分层分类
+hierarchical classification
+HC软件可靠性
+software reliability
+SR符号回归
+symbolic regression
+SR数字图书馆
+digital library
+DL群体决策支持系统
+group decision support system
+GDSS基于Agent的模型
+agent-based model
+ABM约束逻辑程序设计
+constraint logic programming
+CLP马尔可夫随机场
+markov random field
+MRF极限学习机
+extreme learning machines
+ELM水库计算
+reservoir computing
+RC多因素分析
+multivariate analysis
+MVRA相关系数
+correlation coefficient
+CC心率变异性
+heart rate variability
+HRV模糊C均值聚类
+fuzzy c-means clustering
+FCM空中交通管制
+air traffic control
+ATC质量评价
+quality assessment
+QA客户关系管理
+customer relationship management
+CRM搜索引擎
+search engines
+SE并行工程
+concurrent engineering
+CE虚拟机
+virtual machine
+VM工作记忆
+working memory
+WM多Agent系统
+multi agent system
+MAS人类与机器人互动
+human robot interaction
+HRI基于实例的学习
+instance-based learning
+IBL自动文摘
+text summarization
+TS混合方法
+hybrid approach
+HA软件代理
+software agent
+SA模型管理
+model management
+MM随机行走
+random walk
+RW医疗决策
+medical decision making
+MDM自然智能
+natural intelligence
+NI语义Web服务
+semantic web services
+SWS先验知识
+prior knowledge
+PK微阵列数据
+microarray data
+MGED纠错码
+error-correcting codes
+ECOC循证医学
+evidence-based medicine
+EBM智能运输系统
+intelligent transport systems
+ITS扩展卡尔曼滤波器
+extended kalman filter
+EKF音乐信息检索
+music information retrieval
+MIR数据包络分析
+data envelopment analysis
+DEA态势感知
+situational awareness
+SA多维标度
+multidimensional scaling
+MDS统计过程控制
+statistical process control
+SPC子空间学习
+subspace learning
+SL标签传播
+label propagation
+LP风力发电机组
+wind turbine
+WT相关分析
+correlation analysis
+CA基因调控网络
+gene regulatory networks
+GRN控制理论
+control theory
+CT启发式优化
+heuristic optimization
+HERO模拟退火算法
+simulated annealing algorithm
+SAA贝叶斯估计
+bayesian estimation
+BARE进化策略
+evolution strategies
+ES人机界面
+human-machine interface
+HMI基于知识的系统
+knowledge based system
+KBS生产系统
+production system
+PS频谱感知
+spectrum sensing
+SS表示学习
+representation learning
+RL脉冲神经网络
+spiking neural networks
+SNN多元线性回归分析
+multiple linear regression
+MLR仿真模型
+simulation model
+SPUR质量保证
+quality assurance
+QA严肃游戏
+serious game
+SG概念模型
+conceptual model
+CM语言模型
+language model
+LM心脏衰竭
+heart failure
+HF空气质量
+air quality
+AQ模糊专家系统
+fuzzy expert system
+FES移动自组网
+mobile ad hoc network
+MANET基于项目的学习
+project-based learning
+PBL联盟形成
+coalition formation
+CF规划识别
+plan recognition
+PR数据仓库
+data warehousing
+DW响应面法
+response surface methodology
+RSM模糊推理系统
+fuzzy inference systems
+FIS计算智能社会
+computational intelligence society
+CIS虚拟环境
+virtual environments
+VE无人机
+unmanned aerial vehicle
+UAV社会计算
+social computing
+SC群智能算法
+swarm intelligence algorithm
+SIA免疫系统
+immune system
+IS顺序回归
+ordinal regression
+OR统计学习理论
+statistical learning theory
+SLT光学相干断层扫描
+optical coherence tomography
+OCT最小生成树
+minimum spanning tree
+MST数字图书馆
+digital libraries
+DL分类精度
+classification accuracy
+CA全局指数稳定性
+global exponential stability
+GES可信计算
+trusted computing
+TC逆运动学
+inverse kinematics
+IK约束传播
+constraint propagation
+CP软件维护
+software maintenance
+SM家庭自动化
+home automation
+HA综合分析
+multicriteria analysis
+MCDA提出了直觉模糊集
+intuitionistic fuzzy set
+IFS分布式人工智能
+distributed ai
+DAI形态分析
+morphological analysis
+MA数字取证
+digital forensics
+DF油中溶解气体分析
+dissolved gas analysis
+DGA辅助技术
+assistive technologies
+AT实验设计
+experimental design
+ED非线性规划
+nonlinear programming
+NLP技术分析
+technical analysis
+TA体育活动
+physical activity
+PA组播路由
+multicast routing
+MR最大似然法
+maximum likelihood
+ML包容架构
+subsumption architecture
+SA混合智能系统
+hybrid intelligent systems
+HIS机器学习方法
+machine learning methods
+MLM医学人工智能
+artificial intelligence in medicine
+AIME09脉冲神经网络
+spiking neural network
+SNN基于内容的图像检索
+content based image retrieval
+CBIR曲线拟合
+curve fitting
+CF蒙特卡罗方法
+monte carlo methods
+MCMC智能决策支持系统
+intelligent decision support systems
+IDSS傅里叶变换
+fourier transform
+FT信念网络
+belief networks
+BN自然语言
+natural languages
+NL信任管理
+trust management
+TM心房颤动
+atrial fibrillation
+AF背包问题
+knapsack problem
+KP学习对象
+learning objects
+LO贝叶斯分类器
+bayesian classifier
+BC对比度增强
+contrast enhancement
+CE案例研究
+case studies
+CS不确定性推理
+uncertain reasoning
+UR质量管理
+quality management
+QMICU
+intensive care unit
+ICU有限自动机
+finite automata
+FA假设检验
+hypothesis testing
+HT概念学习
+concept learning
+CL系统综述
+systematic review
+SR基因调控网络
+gene regulatory network
+GRN模糊层次分析法
+fuzzy ahp
+FAHP主动轮廓
+active contour
+AC统计关系学习
+statistical relational learning
+SRL态势评估
+situation assessment
+SA用户交互
+user interaction
+UI小波分解
+wavelet decomposition
+WD概念图表
+conceptual graphs
+CG分布式问题求解
+distributed problem solving
+DPS最小二乘支持向量机
+least square support vector machine
+LSSVM智能制造系统
+intelligent manufacturing systems
+IMS地理信息系统
+geographical information system
+GIS手语识别
+sign language recognition
+SLR非线性回归
+nonlinear regression
+NLR优化问题
+optimization problem
+OP设计自动化
+design automation
+DA多Agent系统
+multi agent systems
+MAS高斯过程回归
+gaussian process regression
+GPR径向基函数网络
+radial basis function networks
+RBFN无人飞行器
+unmanned aerial vehicles
+UAV最近邻居
+nearest neighbors
+NN模型驱动工程
+model-driven engineering
+MDE和声搜索算法
+harmony search algorithm
+HSA图划分
+graph partitioning
+GP多准则决策分析
+multi-criteria decision analysis
+MCDA属性选择
+attribute selection
+AS文本蕴涵
+textual entailment
+TE多标准分析
+multi-criteria analysis
+MCDA装配线平衡
+assembly line balancing
+ALB组织学习
+organizational learning
+OL社交网络
+social networking
+SN常识推理
+commonsense reasoning
+CR演化硬件
+evolvable hardware
+EHW文献分析
+document analysis
+DA优化算法
+optimization algorithms
+OA地理信息系统
+geographical information systems
+GIS隐性知识
+tacit knowledge
+TK径向基函数网络
+radial basis function network
+RBFN反向传播算法
+back propagation algorithm
+BPA说话人识别
+speaker recognition
+SRRaspberry Pi
+raspberry pi
+RPI概率神经网络
+probabilistic neural network
+PNN空间数据挖掘
+spatial data mining
+SDM图像质量
+image quality
+IQ凸包
+convex hull
+CH自组织映射
+self organizing map
+SOM流量分析
+traffic analysis
+TA仿生算法
+nature inspired algorithms
+NIA影响图
+influence diagrams
+ID业务流程管理
+business process management
+BPM模糊关系
+fuzzy relation
+FR-GEP回归树
+regression trees
+RT自适应滤波
+adaptive filtering
+AF产品开发
+product development
+PD空间决策支持系统
+spatial decision support systems
+SDSS近似动态规划
+approximate dynamic programming
+ADP知识整合
+knowledge integration
+KI图形用户界面
+graphical user interface
+GUI项目反应理论
+item response theory
+IRT智能数据分析
+intelligent data analysis
+IDA粒子群优化算法
+particle swarm optimizer
+PSO径向基函数神经网络
+radial basis function neural networks
+RBFNN马尔可夫模型
+markov model
+MM建筑业
+construction industry
+CI核主成分分析
+kernel principal component analysis
+KPCA经济负荷分配
+economic load dispatch
+ELD运动表象
+motor imagery
+MI手势识别
+hand gesture recognition
+HGR智能运输系统
+intelligent transport system
+ITS岭回归
+ridge regression
+RR径向基函数
+radial basis functions
+RBF在线社交网络
+online social network
+OSN移动电话
+mobile phone
+MP压缩感知
+compressive sensing
+CS软件缺陷预测
+software defect prediction
+SDP语法演变
+grammatical evolution
+GE问题分类
+question classification
+QC结直肠癌
+colorectal cancer
+CRC多分类器系统
+multiple classifier system
+MCS搜索空间
+search space
+SP迭代学习控制
+iterative learning control
+ILC多主体规划
+multi-agent planning
+MAP蛋白质-蛋白质相互作用
+protein-protein interactions
+PPI算法选择
+algorithm selection
+AS数据同化
+data assimilation
+DA模糊模型
+fuzzy model
+FIOM人本计算
+human computation
+HC冠状动脉疾病
+coronary artery disease
+CAD概念代数
+concept algebra
+CA主成分分析
+principal components analysis
+PCA事件演算
+event calculus
+EC进化优化
+evolutionary optimization
+EO情景演算
+situation calculus
+SC最大似然估计
+maximum likelihood estimation
+MLE二级结构
+secondary structure
+SS行动选择
+action selection
+AS直接转矩控制
+direct torque control
+DTC条件随机域
+conditional random field
+CRF统计机器翻译
+statistical machine translation
+SMT基于Agent的系统
+agent-based systems
+ABS传递函数
+transfer function
+TF自动编程
+automatic programming
+AP本体对齐
+ontology alignment
+OA蜜蜂算法
+bees algorithm
+BA劝导技术
+persuasive technology
+PT概率图模型
+probabilistic graphical models
+PGM作者身份识别
+authorship attribution
+AA电脑游戏
+computer game
+CG空间分析
+spatial analysis
+SDSS多视图学习
+multi-view learning
+MVL击键动力学
+keystroke dynamics
+KD蚂蚁系统
+ant system
+AS智能交通系统
+intelligent transportation system
+ITS支持向量数据描述
+support vector data description
+SVDD从运动恢复结构
+structure from motion
+SFM临床实践指南
+clinical practice guidelines
+CPG最小二乘支持向量机
+least squares support vector machine
+LSSVM智能网络
+intelligent networks
+IN记录链接
+record linkage
+RL混合学习
+hybrid learning
+HL隶属函数
+membership functions
+MF多任务学习
+multitask learning
+MTL全局搜索
+global search
+GS性能测量
+performance measurement
+PM学习分类器系统
+learning classifier systems
+LCS黑板结构
+blackboard architecture
+BBA超分辨率
+super resolution
+SR回声状态网络
+echo state networks
+ESN能量收集
+energy harvesting
+EH那ï朴素贝叶斯分类器
+naïve bayes classifier
+NBC电动汽车
+electric vehicles
+EV深度信念网络
+deep belief networks
+DBN二进制粒子群优化算法
+binary particle swarm optimization
+BPSO本体工程
+ontology engineering
+OESNOMED CT
+snomed ct
+SCT椭圆曲线密码体制
+elliptic curve cryptography
+ECC二次分配问题
+quadratic assignment problem
+QAP计算流体动力学
+computational fluid dynamics
+CFD情景分析
+scenario analysis
+SA证据推理
+evidential reasoning
+ER多准则决策
+multicriteria decision making
+MCDM马尔可夫链蒙特卡罗
+markov chain monte carlo
+MCMC主成分分析
+principle component analysis
+PCA混合现实
+mixed reality
+MR对手建模
+opponent modeling
+OM非线性动力学
+nonlinear dynamics
+NLD粒子滤波
+particle filtering
+PF有限元
+finite element
+FE距离度量学习
+distance metric learning
+DML数据仓库
+data warehouses
+DW关联分类
+associative classification
+AC智能空间
+intelligent space
+IS决策表
+decision table
+DT群优化
+swarm optimization
+SPSO电源变压器
+power transformers
+PT克隆选择算法
+clonal selection algorithm
+CSA多文档摘要
+multi-document summarization
+MDS模糊积分
+fuzzy integral
+FI概率神经网络
+probabilistic neural networks
+PNN管理信息系统
+management information systems
+MIS全局渐近稳定性
+global asymptotic stability
+GAS搜索算法
+search algorithms
+SA特色建设
+feature construction
+FC程序生成内容
+procedural content generation
+PCG感兴趣区域
+region of interest
+ROI烟花算法
+fireworks algorithm
+FWA发展中国家
+developing countries
+DC相变
+phase transition
+PT开放数据
+open data
+OD公共卫生
+public health
+PH模糊时间序列
+fuzzy time series
+FTS词计算
+computing with words
+CWW土地覆盖
+land cover
+LULC余弦相似度
+cosine similarity
+CS自组织映射
+self organizing maps
+SOM声发射
+acoustic emission
+AE差分隐私
+differential privacy
+DP设计科学
+design science
+DS高光谱图像
+hyperspectral image
+HSIdelaunay三角形
+delaunay triangulation
+DT-SOF软套
+soft set
+SS虚拟人
+virtual human
+VH虚拟企业
+virtual enterprise
+VE可再生能源
+renewable energy sources
+RES体现会话代理
+embodied conversational agents
+ECA在线争议解决
+online dispute resolution
+ODR整数线性规划
+integer linear programming
+ILP手语
+sign language
+SL最小二乘支持向量机
+least squares support vector machines
+LSSVMKolmogorov复杂性
+kolmogorov complexity
+KC智能制造
+intelligent manufacturing
+IM最大功率点跟踪
+maximum power point tracking
+MPPT多分类器系统
+multiple classifier systems
+MCS超声成像
+ultrasound imaging
+US偏最小二乘法
+partial least squares
+PLS人工坐席
+artificial agents
+AA多层感知器
+multilayer perceptrons
+MLP核电站
+nuclear power plants
+NPP回归模型
+regression model
+RM教学设计
+instructional design
+ID多元回归
+multiple regression
+MR自我调节学习
+self-regulated learning
+SRL人工免疫
+artificial immune
+AI竞争情报
+competitive intelligence
+CI主动轮廓模型
+active contour model
+ACM混合遗传算法
+hybrid genetic algorithm
+HGA汉明距离
+hamming distance
+HD中医
+traditional chinese medicine
+TCM时间序列分类
+time series classification
+TSC功能连接
+functional connectivity
+FC多目标进化算法
+multi-objective evolutionary algorithms
+MOEA电脑音乐
+computer music
+CMHopfield神经网络
+hopfield neural network
+HNN混合方法
+hybrid method
+HAP自主车
+autonomous vehicle
+AV对话系统
+dialogue systems
+DS无监督聚类
+unsupervised clustering
+UC决策支持系统
+decision-support system
+DSSRadon变换
+radon transform
+RT前馈神经网络
+feedforward neural network
+FNN离散事件仿真
+discrete-event simulation
+DES心率
+heart rate
+HR环境决策支持系统
+environmental decision support systems
+EDSS本体匹配
+ontology matching
+OM开放源代码软件
+open source software
+OSS语音增强
+speech enhancement
+SE偏好诱导
+preference elicitation
+PE无线电频率识别
+radio frequency identification
+RFID复杂自适应系统
+complex adaptive systems
+CAS自适应系统
+adaptive system
+AS服务选择
+service selection
+SSP最小描述长度
+minimum description length
+MDL人类视觉系统
+human visual system
+HVS网络编码
+network coding
+NC多准则决策
+multiple criteria decision making
+MCDM高斯分布
+gaussian distribution
+GCGM光网络
+optical networks
+ON粒子滤波器
+particle filters
+PF矩阵完成
+matrix completion
+MC语音识别
+voice recognition
+VR智能用户界面
+intelligent user interfaces
+IUI用户模型
+user model
+UM纹理特征
+texture features
+TF蜂群优化
+bee colony optimization
+BCO视障
+visually impaired
+VI概率密度函数
+probability density function
+PDF遗传模糊系统
+genetic fuzzy systems
+GFS无损检测
+non-destructive testing
+NDT目标函数
+objective function
+OF土壤水分
+soil moisture
+SM上界
+upper bound
+UB摘要论证
+abstract argumentation
+AA医院信息系统
+hospital information systems
+HIS无线Mesh网络
+wireless mesh networks
+WMN聚类集成
+clustering ensemble
+CE分类算法
+classification algorithm
+CA负载平衡
+load balance
+LB配水系统
+water distribution systems
+WDS编辑距离
+edit distance
+ED基于条件的维护
+condition based maintenance
+CBM神经网络集成
+neural network ensemble
+NNE随机梯度下降
+stochastic gradient descent
+SGD阴性选择
+negative selection
+NS语法推理
+grammatical inference
+GI事件提取
+event extraction
+EE混合整数规划
+mixed integer programming
+MIP直方图均衡化
+histogram equalization
+HE语义表示
+semantic representation
+SR协方差矩阵
+covariance matrix
+CM规则库
+rule base
+RB蚁群算法
+max-min ant system
+MMAS中值滤波
+median filter
+MF说话人确认
+speaker verification
+SV贝叶斯信念网络
+bayesian belief networks
+BBN需求侧管理
+demand side management
+DSM亲和传播
+affinity propagation
+AP自适应共振理论
+adaptive resonance theory
+ART定性物理
+qualitative physics
+QP变精度粗糙集
+variable precision rough set
+VPRS多发性硬化症
+multiple sclerosis
+MS感应电动机
+induction motors
+IM主动形状模型
+active shape model
+ASM面向agent的软件工程
+agent-oriented software engineering
+AOSE分布式认知
+distributed cognition
+DC视觉密码
+visual cryptography
+VC小波变换
+wavelet transformation
+WT上下文信息
+contextual information
+CI测试用例排序
+test case prioritization
+TCP知识图谱
+knowledge graph
+KG光伏发电系统
+photovoltaic system
+PV智能环境
+smart environment
+SE远程控制
+remote control
+RC膜计算
+membrane computing
+MC反向传播算法
+backpropagation algorithm
+BP虚拟学习环境
+virtual learning environment
+VLEVoronoi图
+voronoi diagram
+VD语音情感识别
+speech emotion recognition
+SER活动理论
+activity theory
+AT脑机接口
+brain-computer interfaces
+BCI智能环境
+intelligent environment
+IE快速傅里叶变换
+fast fourier transform
+FFT车间调度问题
+job shop scheduling problem
+JSSP帕金森氏病
+parkinson’s disease
+PD未来互联网
+future internet
+FI协同进化
+cooperative coevolution
+CC人工智能
+artificial intelligence
+机器学习
+machine learning
+数据挖掘
+data mining
+神经网络
+neural networks
+决策支持系统
+decision support system
+蚁群优化算法
+ant colony optimization
+遗传算法
+genetic algorithm
+决策支持系统
+decision support systems
+群体智能
+swarm intelligence
+神经网络
+neural network
+模糊逻辑
+fuzzy logic
+支持向量机
+support vector machine
+特征选择
+feature selection
+粒子群优化算法
+particle swarm optimization
+人工神经网络
+artificial neural networks
+遗传算法
+genetic algorithms
+计算智能
+computational intelligence
+人工神经网络
+artificial neural network
+模式识别
+pattern recognition
+自然语言处理
+natural language processing
+主动学习
+active learning
+专家系统
+expert systems
+特征提取
+feature extraction
+支持向量机
+support vector machines
+专家系统
+expert system
+知识表示
+knowledge representation
+图像处理
+image processing
+强化学习
+reinforcement learning
+决策支持
+decision support
+环境智能
+ambient intelligence
+计算机视觉
+computer vision
+大数据
+big data
+基于案例的推理
+case-based reasoning
+云计算
+cloud computing
+决策制定
+decision making
+多智能体系统
+multi-agent systems
+信息检索
+information retrieval
+图像分割
+image segmentation
+深度学习
+deep learning
+故障诊断
+fault diagnosis
+文本挖掘
+text mining
+智能代理
+intelligent agents
+语义网
+semantic web
+遗传编程
+genetic programming
+进化计算
+evolutionary computation
+情感分析
+sentiment analysis
+决策树
+decision tree
+随机森林
+random forest
+进化算法
+evolutionary algorithms
+人脸识别
+face recognition
+知识管理
+knowledge management
+无线传感器网络
+wireless sensor networks
+贝叶斯网络
+bayesian networks
+智能系统
+intelligent systems
+多目标优化
+multi-objective optimization
+监督学习
+supervised learning
+差分进化
+differential evolution
+多智能体系统
+multi-agent system
+决策树
+decision trees
+信息提取
+information extraction
+蚁群优化算法
+ant colony optimization (aco)
+异常检测
+anomaly detection
+主成分分析
+principal component analysis
+无监督学习
+unsupervised learning
+进化算法
+evolutionary algorithm
+知识获取
+knowledge acquisition
+入侵检测
+intrusion detection
+模糊集
+fuzzy sets
+基于知识的系统
+knowledge-based systems
+路径规划
+path planning
+模拟退火
+simulated annealing
+降维
+dimensionality reduction
+人工蜂群
+artificial bee colony
+粗糙集
+rough sets
+知识发现
+knowledge discovery
+无线传感器网络
+wireless sensor network
+粗糙集
+rough set
+遥感
+remote sensing
+半监督学习
+semi-supervised learning
+时间序列
+time series
+虚拟现实
+virtual reality
+博弈论
+game theory
+贝叶斯网络
+bayesian network
+智能教学系统
+intelligent tutoring systems
+小波变换
+wavelet transform
+社会化媒体
+social media
+推荐系统
+recommender systems
+物联网
+internet of things
+知识库
+knowledge base
+多智能体系统
+multiagent systems
+人机交互
+human-computer interaction
+支持向量回归
+support vector regression
+分布式人工智能
+distributed artificial intelligence
+图像分类
+image classification
+活动识别
+activity recognition
+乳腺癌
+breast cancer
+知识工程
+knowledge engineering
+文本分类
+text classification
+物体识别
+object recognition
+模式分类
+pattern classification
+集成学习
+ensemble learning
+社交网络
+social networks
+Logistic回归
+logistic regression
+图像分析
+image analysis
+组合优化
+combinatorial optimization
+移动机器人
+mobile robot
+信号处理
+signal processing
+数据融合
+data fusion
+软计算
+soft computing
+粒子群优化算法
+particle swarm optimization (pso)
+数据分析
+data analysis
+协同过滤
+collaborative filtering
+蚁群算法
+ant colony algorithm
+情感计算
+affective computing
+软件工程
+software engineering
+自适应控制
+adaptive control
+逻辑程序设计
+logic programming
+模糊系统
+fuzzy systems
+互信息
+mutual information
+定性推理
+qualitative reasoning
+全局优化
+global optimization
+绩效评价
+performance evaluation
+人工蜂群算法
+artificial bee colony algorithm
+极限学习机
+extreme learning machine
+Web服务
+web services
+人工免疫系统
+artificial immune system
+计算机科学
+computer science
+计算机辅助诊断
+computer-aided diagnosis
+智能电网
+smart grid
+边缘检测
+edge detection
+信息系统
+information systems
+能源效率
+energy efficiency
+模糊控制
+fuzzy control
+语音识别
+speech recognition
+认知科学
+cognitive science
+动态规划
+dynamic programming
+元胞自动机
+cellular automata
+数据仓库
+data warehouse
+问答系统
+question answering
+在线学习
+online learning
+人类与机器人互动
+human-robot interaction
+局部搜索
+local search
+人工生命
+artificial life
+信息融合
+information fusion
+移动机器人
+mobile robots
+普适计算
+ubiquitous computing
+商业智能
+business intelligence
+机器视觉
+machine vision
+并行计算
+parallel computing
+核方法
+kernel methods
+基于知识的系统
+knowledge-based system
+意见挖掘
+opinion mining
+社会网络
+social network
+模糊聚类
+fuzzy clustering
+信息技术
+information technology
+约束满足
+constraint satisfaction
+人工神经网络
+artificial neural network (ann)
+增量学习
+incremental learning
+禁忌搜索算法
+tabu search
+关联规则
+association rules
+故障检测
+fault detection
+随机森林
+random forests
+智能控制
+intelligent control
+图像配准
+image registration
+目标检测
+object detection
+迁移学习
+transfer learning
+图灵测试
+turing test
+智能代理
+intelligent agent
+粗糙集理论
+rough set theory
+隐藏马尔可夫模型
+hidden markov model
+风险评估
+risk assessment
+启发式搜索
+heuristic search
+计算复杂性
+computational complexity
+网络安全
+network security
+多目标优化
+multiobjective optimization
+分布式计算
+distributed computing
+稀疏表示
+sparse representation
+多层感知器
+multilayer perceptron
+分布式系统
+distributed systems
+风险管理
+risk management
+流形学习
+manifold learning
+图像检索
+image retrieval
+推荐系统
+recommender system
+临床决策支持系统
+clinical decision support systems
+时间推理
+temporal reasoning
+认知无线电
+cognitive radio
+图论
+graph theory
+系统辨识
+system identification
+线性规划
+linear programming
+磁共振成像
+magnetic resonance imaging
+解决问题
+problem solving
+萤火虫算法
+firefly algorithm
+蚁群优化算法
+ant colony optimization algorithm
+模型选择
+model selection
+机器智能
+machine intelligence
+情感识别
+emotion recognition
+临床决策支持系统
+clinical decision support system
+机器学习算法
+machine learning algorithms
+参数估计
+parameter estimation
+负载平衡
+load balancing
+聚类分析
+cluster analysis
+信息理论
+information theory
+增强现实
+augmented reality
+Web挖掘
+web mining
+Kalman滤波
+kalman filter
+k-均值群集
+k-means clustering
+人脸检测
+face detection
+旅行商问题
+traveling salesman problem
+电力系统
+power system
+数学模型
+mathematical model
+隐藏马尔可夫模型
+hidden markov models
+资源分配
+resource allocation
+自组织映射
+self-organizing maps
+手势识别
+gesture recognition
+基于案例的推理
+case based reasoning
+社会网络分析
+social network analysis
+供应链管理
+supply chain management
+自组织映射
+self-organizing map
+人机交互
+human computer interaction
+基因表达
+gene expression
+项目管理
+project management
+能源消费
+energy consumption
+状态监测
+condition monitoring
+并行处理
+parallel processing
+普适计算
+pervasive computing
+人工免疫系统
+artificial immune systems
+相似性度量
+similarity measure
+早老性痴呆
+alzheimer's disease
+医疗诊断
+medical diagnosis
+智能教学系统
+intelligent tutoring system
+服务质量
+quality of service
+那ï朴素贝叶斯
+naïve bayes
+卷积神经网络
+convolutional neural networks
+语境意识
+context awareness
+辅助生活环境
+ambient assisted living
+自治代理
+autonomous agents
+反向传播
+back propagation
+性能分析
+performance analysis
+语义相似性
+semantic similarity
+约束编程
+constraint programming
+粒度计算
+granular computing
+模糊集
+fuzzy set
+传感器融合
+sensor fusion
+恶意软件检测
+malware detection
+医学信息学
+medical informatics
+复杂系统
+complex systems
+协作学习
+collaborative learning
+循环神经网络
+recurrent neural networks
+计算模型
+computational modeling
+petri网
+petri nets
+命名实体识别
+named entity recognition
+供应链
+supply chain
+严肃游戏
+serious games
+最优控制
+optimal control
+网格计算
+grid computing
+数据聚类
+data clustering
+循环神经网络
+recurrent neural network
+层次分析法
+analytic hierarchy process
+线性鉴别分析
+linear discriminant analysis
+群机器人
+swarm robotics
+用户建模
+user modeling
+自然语言
+natural language
+目标跟踪
+object tracking
+蚁群
+ant colony
+Web服务
+web service
+文本分类
+text categorization
+BP神经网络
+bp neural network
+朴素贝叶斯
+naive bayes
+电能质量
+power quality
+入侵检测系统
+intrusion detection system
+智能家居
+smart home
+层次聚类
+hierarchical clustering
+智能系统
+intelligent system
+敏感性分析
+sensitivity analysis
+信息安全
+information security
+卷积神经网络
+convolutional neural network
+模糊C均值聚类
+fuzzy c-means
+属性约简
+attribute reduction
+模糊神经网络
+fuzzy neural network
+传感器网络
+sensor networks
+异常检测
+outlier detection
+神经网络
+neural nets
+图像识别
+image recognition
+临床决策支持
+clinical decision support
+模糊推理系统
+fuzzy inference system
+独立分量分析
+independent component analysis
+自动推理
+automated reasoning
+关联数据
+linked data
+信息系统
+information system
+数据集成
+data integration
+访问控制
+access control
+用户体验
+user experience
+集体智慧
+collective intelligence
+主成分分析（PCA）
+principal component analysis (pca)
+人为因素
+human factors
+机器翻译
+machine translation
+非单调推理
+nonmonotonic reasoning
+约束优化
+constrained optimization
+软件代理
+software agents
+径向基函数
+radial basis function
+字典学习
+dictionary learning
+基于知识的系统
+knowledge based systems
+计算机模拟
+computer simulation
+统计分析
+statistical analysis
+过程控制
+process control
+粒子滤波
+particle filter
+避障
+obstacle avoidance
+混合动力系统
+hybrid systems
+医学影像学
+medical imaging
+模糊集理论
+fuzzy set theory
+知识提取
+knowledge extraction
+车辆路径问题
+vehicle routing problem
+软件测试
+software testing
+概念漂移
+concept drift
+信念修正
+belief revision
+电力系统
+power systems
+嵌入式系统
+embedded systems
+动作识别
+action recognition
+模糊推理
+fuzzy inference
+模式匹配
+pattern matching
+控制系统
+control systems
+纹理分析
+texture analysis
+自适应系统
+adaptive systems
+形式概念分析
+formal concept analysis
+创新计算
+computational creativity
+谱聚类算法
+spectral clustering
+有监督的机器学习
+supervised machine learning
+预测模型
+predictive models
+不平衡数据
+imbalanced data
+贝叶斯推理
+bayesian inference
+群体决策
+group decision making
+奇异值分解
+singular value decomposition
+时间序列分析
+time series analysis
+有限元法
+finite element method
+人工智能
+artificial intelligent
+认知信息学
+cognitive informatics
+监督分类
+supervised classification
+认知建模
+cognitive modeling
+软件体系结构
+software architecture
+可再生能源
+renewable energy
+模糊系统
+fuzzy system
+电脑游戏
+computer games
+进化计算
+evolutionary computing
+移动计算
+mobile computing
+关联规则挖掘
+association rule mining
+数据可视化
+data visualization
+统计学习
+statistical learning
+用户界面
+user interface
+水质
+water quality
+信息可视化
+information visualization
+工程教育
+engineering education
+模糊推理
+fuzzy reasoning
+社区检测
+community detection
+急救管理
+emergency management
+线性回归
+linear regression
+计算机辅助设计
+computer-aided design
+回归分析
+regression analysis
+情境意识
+situation awareness
+复杂网络
+complex networks
+移动代理
+mobile agent
+图像融合
+image fusion
+图形模型
+graphical models
+模型检验
+model checking
+容错
+fault tolerance
+稀疏编码
+sparse coding
+地理信息系统
+geographic information system
+条件随机域
+conditional random fields
+空间推理
+spatial reasoning
+感应电动机
+induction motor
+离散小波变换
+discrete wavelet transform
+系统动力学
+system dynamics
+电子商务
+electronic commerce
+高斯混合模型
+gaussian mixture model
+数据分析
+data analytics
+进化机器人技术
+evolutionary robotics
+资源管理
+resource management
+能源管理
+energy management
+优化方法
+optimization methods
+基于模型的诊断
+model-based diagnosis
+决策分析
+decision analysis
+近似推理
+approximate reasoning
+蚁群优化
+ant colony optimisation
+计算机断层扫描
+computed tomography
+k-近邻
+k-nearest neighbor
+面部表情识别
+facial expression recognition
+集成方法
+ensemble methods
+图像增强
+image enhancement
+文化基因算法
+memetic algorithm
+高等教育
+higher education
+决策支持系统（DSS）
+decision support systems (dss)
+多准则决策
+multi-criteria decision making
+降维
+dimension reduction
+基于内容的图像检索
+content-based image retrieval
+脑机接口
+brain-computer interface (bci)
+类不平衡
+class imbalance
+学习系统
+learning systems
+分布式发电
+distributed generation
+PID控制器
+pid controller
+人工智能技术
+artificial intelligence techniques
+分类算法
+classification algorithms
+可能性理论
+possibility theory
+情感分类
+sentiment classification
+服务组合
+service composition
+质量控制
+quality control
+决策理论
+decision theory
+传感器网络
+sensor network
+认知计算
+cognitive computing
+事件检测
+event detection
+归纳逻辑程序设计
+inductive logic programming
+模糊认知图
+fuzzy cognitive maps
+基于主体建模
+agent-based modeling
+非线性系统
+nonlinear systems
+参数优化
+parameter optimization
+变量选择
+variable selection
+防撞
+collision avoidance
+相关反馈
+relevance feedback
+数据质量
+data quality
+知识表示与推理
+knowledge representation and reasoning
+计算机图形学
+computer graphics
+规则提取
+rule extraction
+案例研究
+case study
+人工智能规划
+ai planning
+工艺规划
+process planning
+光流
+optical flow
+判别分析
+discriminant analysis
+模板匹配
+template matching
+网络安全
+cyber security
+数学形态学
+mathematical morphology
+概念设计
+conceptual design
+数据处理
+data processing
+高斯过程
+gaussian process
+高斯过程
+gaussian processes
+静态分析
+static analysis
+矩阵分解
+matrix factorization
+约束满足问题
+constraint satisfaction problem
+认知结构
+cognitive architecture
+文本分析
+text analysis
+归纳学习
+inductive learning
+视频监控
+video surveillance
+教育数据挖掘
+educational data mining
+嵌入式系统
+embedded system
+模糊规则
+fuzzy rules
+计算语言学
+computational linguistics
+数值模拟
+numerical simulation
+电子健康记录
+electronic health records
+气候变化
+climate change
+可持续发展
+sustainable development
+回答集编程
+answer set programming
+数据流
+data streams
+词义消歧
+word sense disambiguation
+函数逼近
+function approximation
+变化检测
+change detection
+负荷预测
+load forecasting
+丢失数据
+missing data
+D-S证据理论
+dempster-shafer theory
+辅助技术
+assistive technology
+分类器集成
+classifier ensemble
+可穿戴式传感器
+wearable sensors
+模糊神经网络
+fuzzy neural networks
+马尔可夫链
+markov chain
+基于Agent的仿真
+agent-based simulation
+信用评分
+credit scoring
+地理信息系统
+geographic information systems
+计算生物学
+computational biology
+冲突解决
+conflict resolution
+多标签分类
+multi-label classification
+实时
+real time
+PID控制
+pid control
+软件质量
+software quality
+任务调度
+task scheduling
+聚类算法
+clustering algorithms
+压缩感知
+compressed sensing
+大数据分析
+big data analytics
+眼睛跟踪
+eye tracking
+智慧城市
+smart city
+信息增益
+information gain
+领域适应性
+domain adaptation
+规则系统
+rule-based systems
+语义网络
+semantic networks
+函数优化
+function optimization
+健身功能
+fitness function
+隶属函数
+membership function
+预测模型
+prediction model
+自动语音识别
+automatic speech recognition
+模式分析
+pattern analysis
+步态分析
+gait analysis
+运动分析
+motion analysis
+定性空间推理
+qualitative spatial reasoning
+概率推理
+probabilistic reasoning
+图像理解
+image understanding
+智能决策支持系统
+intelligent decision support system
+规则归纳
+rule induction
+移动设备
+mobile devices
+量子计算
+quantum computing
+搜索引擎
+search engine
+蚁群系统
+ant colony system
+可视化分析
+visual analytics
+表面粗糙度
+surface roughness
+任务分配
+task allocation
+运动估计
+motion estimation
+仿人机器人
+humanoid robot
+模态逻辑
+modal logic
+进化规划
+evolutionary programming
+学习分析
+learning analytics
+混合算法
+hybrid algorithm
+基因选择
+gene selection
+小波分析
+wavelet analysis
+整数规划
+integer programming
+基因表达数据
+gene expression data
+用户界面
+user interfaces
+虚拟筛选
+virtual screening
+信息管理
+information management
+基于规则的推理
+rule-based reasoning
+最近邻
+nearest neighbor
+自动规划
+automated planning
+机器学习技术
+machine learning techniques
+空间决策支持系统
+spatial decision support system
+智能家居
+smart homes
+基因表达式编程
+gene expression programming
+因子分析
+factor analysis
+知识库
+knowledge bases
+数据采集
+data acquisition
+预测分析
+predictive analytics
+主题建模
+topic modeling
+马尔可夫决策过程
+markov decision process
+关联规则
+association rule
+Hough变换
+hough transform
+多智能体系统
+multiagent system
+糖尿病性视网膜病变
+diabetic retinopathy
+深度神经网络
+deep neural networks
+过程挖掘
+process mining
+数学规划
+mathematical programming
+智能电网
+smart grids
+信息处理
+information processing
+蒙特卡罗仿真
+monte carlo simulation
+Choquet积分
+choquet integral
+临床指南
+clinical guidelines
+状态估计
+state estimation
+联想记忆
+associative memory
+粒子群优化算法
+particle swarm optimisation
+数据科学
+data science
+蝙蝠算法
+bat algorithm
+脑机接口
+brain-computer interface
+知识共享
+knowledge sharing
+多核学习
+multiple kernel learning
+描述逻辑
+description logics
+自适应神经模糊推理系统
+adaptive neuro-fuzzy inference system
+问答系统
+question answering system
+软件开发
+software development
+自主计算
+autonomic computing
+旅行商问题
+travelling salesman problem
+计算机辅助探测
+computer-aided detection
+通用人工智能
+artificial general intelligence
+计算机辅助诊断
+computer aided diagnosis
+推理机
+inference engine
+蒙特卡罗树搜索
+monte carlo tree search
+聚类算法
+clustering algorithm
+自治系统
+autonomous systems
+前列腺癌
+prostate cancer
+灾害管理
+disaster management
+背景减法
+background subtraction
+自然语言生成
+natural language generation
+网络管理
+network management
+移动代理
+mobile agents
+细胞神经网络
+cellular neural networks
+离散事件仿真
+discrete event simulation
+自然语言理解
+natural language understanding
+Petri网
+petri net
+自动定理证明
+automated theorem proving
+作业研究
+operations research
+纳什均衡
+nash equilibrium
+粒子群
+particle swarm
+分布式系统
+distributed system
+语义分析
+semantic analysis
+柔性制造系统
+flexible manufacturing systems
+实例选择
+instance selection
+智能交通系统
+intelligent transportation systems
+多层感知器
+multi-layer perceptron
+结构健康监测
+structural health monitoring
+描述逻辑
+description logic
+动态时间规整
+dynamic time warping
+粒子群优化算法
+particle swarm optimization algorithm
+计算机网络
+computer networks
+模糊逻辑控制器
+fuzzy logic controller
+推荐系统
+recommendation system
+混合模型
+hybrid model
+和声搜索
+harmony search
+关系抽取
+relation extraction
+群体决策支持系统
+group decision support systems
+经济调度
+economic dispatch
+文化遗产
+cultural heritage
+局部二进制模式
+local binary pattern
+人类行为识别
+human activity recognition
+受限波尔兹曼机
+restricted boltzmann machine
+优化算法
+optimization algorithm
+逆向工程
+reverse engineering
+多主体模拟
+multi-agent simulation
+基因本体论
+gene ontology
+隐含狄利克雷分布
+latent dirichlet allocation
+虚拟环境
+virtual environment
+信息熵
+information entropy
+高性能计算
+high performance computing
+一类分类
+one-class classification
+数学建模
+mathematical modeling
+约束满足问题
+constraint satisfaction problems
+欧氏距离
+euclidean distance
+相关向量机
+relevance vector machine
+蒙特卡罗
+monte carlo
+推荐系统
+recommendation systems
+引力搜索算法
+gravitational search algorithm
+心脏病：
+heart disease
+时间序列预测
+time series forecasting
+经验模式分解
+empirical mode decomposition
+跌倒检测
+fall detection
+盲源分离
+blind source separation
+链接预测
+link prediction
+运动捕捉
+motion capture
+马氏距离
+mahalanobis distance
+移动自组织网络
+mobile ad hoc networks
+图灵机
+turing machine
+Kalman滤波
+kalman filtering
+制造系统
+manufacturing systems
+基于模型的推理
+model-based reasoning
+最优潮流
+optimal power flow
+系统设计
+system design
+形式化方法
+formal methods
+精准农业
+precision agriculture
+蛋白质结构预测
+protein structure prediction
+动力系统
+dynamical systems
+水管理
+water management
+最短路径
+shortest path
+克隆选择
+clonal selection
+学生建模
+student modeling
+布谷鸟搜索
+cuckoo search
+智能环境
+intelligent environments
+矢量量化
+vector quantization
+模糊建模
+fuzzy modeling
+万维网
+world wide web
+电子鼻
+electronic nose
+复杂系统
+complex system
+面向服务的体系结构
+service-oriented architecture
+自组织网络
+ad hoc networks
+关系数据库
+relational database
+径向基神经网络
+rbf neural network
+开放源代码
+open source
+人机交互
+human-machine interaction
+互动学习机
+interactive machine learning
+网络物理系统
+cyber-physical systems
+健康信息学
+health informatics
+模糊控制器
+fuzzy controller
+车辆路径
+vehicle routing
+启发式算法
+heuristic algorithms
+马尔可夫决策过程
+markov decision processes
+非负矩阵分解
+non-negative matrix factorization
+贝叶斯学习
+bayesian learning
+前馈神经网络
+feedforward neural networks
+马尔可夫随机场
+markov random fields
+层次分析法
+analytical hierarchy process
+信息过滤
+information filtering
+本体学习
+ontology learning
+学习自动机
+learning automata
+需求工程
+requirements engineering
+人工鱼群算法
+artificial fish swarm algorithm
+核密度估计
+kernel density estimation
+图匹配
+graph matching
+随机优化
+stochastic optimization
+机器学习算法
+machine learning algorithm
+有限元分析
+finite element analysis
+面向对象的程序设计
+object-oriented programming
+实时系统
+real-time systems
+语义网络
+semantic network
+计算机辅助设计
+computer aided design
+二分类
+binary classification
+数字信号处理
+digital signal processing
+作业车间调度
+job shop scheduling
+小波变换
+wavelet transforms
+Web使用挖掘
+web usage mining
+手写识别
+handwriting recognition
+交互式叙事方式
+interactive storytelling
+远程学习
+distance learning
+模糊认知图
+fuzzy cognitive map
+潜在语义分析
+latent semantic analysis
+重症监护
+intensive care
+计算机辅助诊断
+computer-assisted diagnosis
+反向传播神经网络
+back propagation neural network
+竞争学习
+competitive learning
+模糊逻辑控制
+fuzzy logic control
+预测控制
+predictive control
+离散事件系统
+discrete event systems
+缺失值
+missing values
+期望最大化
+expectation maximization
+微分进化算法
+differential evolution algorithm
+分形维数
+fractal dimension
+向量空间模型
+vector space model
+缺省逻辑
+default logic
+业务流程
+business process
+多标记学习
+multi-label learning
+场景分析
+scene analysis
+虹膜识别
+iris recognition
+需求响应
+demand response
+数据聚集
+data aggregation
+特征子集选择
+feature subset selection
+高斯混合模型
+gaussian mixture models
+不断优化
+continuous optimization
+免疫算法
+immune algorithm
+半监督学习
+semisupervised learning
+电子健康记录
+electronic health record
+指称数学
+denotational mathematics
+多任务学习
+multi-task learning
+定性仿真
+qualitative simulation
+语音合成
+speech synthesis
+光学字符识别
+optical character recognition
+基于规则的系统
+rule-based system
+K近邻
+k-nearest neighbors
+贪心算法
+greedy algorithm
+离散余弦变换
+discrete cosine transform
+在线社交网络
+online social networks
+梯度下降
+gradient descent
+复杂事件处理
+complex event processing
+蛋白质-蛋白质相互作用
+protein-protein interaction
+非负矩阵分解
+nonnegative matrix factorization
+质谱法
+mass spectrometry
+链接开放数据
+linked open data
+径向基函数神经网络
+radial basis function neural network
+废水处理
+wastewater treatment
+Memetic算法
+memetic algorithms
+线性矩阵不等式
+linear matrix inequality
+多机器人系统
+multi-robot systems
+滑模控制
+sliding mode control
+蒙特卡洛树搜索
+monte-carlo tree search
+交叉验证
+cross validation
+图像质量评价
+image quality assessment
+查询扩展
+query expansion
+决策支持系统
+decision-support systems
+数字图像处理
+digital image processing
+结构学习
+structure learning
+动态贝叶斯网络
+dynamic bayesian networks
+学习矢量量化
+learning vector quantization
+数学模型
+mathematical models
+系统工程
+systems engineering
+置信传播
+belief propagation
+社会仿真
+social simulation
+时间延迟
+time delay
+故障定位
+fault location
+脑机接口
+brain computer interface
+二次规划
+quadratic programming
+以用户为中心的设计
+user-centered design
+局部二进制模式
+local binary patterns
+人体动作识别
+human action recognition
+电力市场
+electricity markets
+医学决策支持系统
+medical decision support systems
+区域生长
+region growing
+网络智能
+web intelligence
+电动汽车
+electric vehicle
+轻度认知障碍
+mild cognitive impairment
+网络入侵检测
+network intrusion detection
+最大熵
+maximum entropy
+模型预测控制
+model predictive control
+入侵检测系统
+intrusion detection systems
+工程设计
+engineering design
+糖尿病
+diabetes mellitus
+神经模糊系统
+neuro-fuzzy system
+具身认知
+embodied cognition
+短期负荷预测
+short-term load forecasting
+面向服务的体系结构
+service oriented architecture
+扩散张量成像
+diffusion tensor imaging
+降噪
+noise reduction
+Web服务组合
+web service composition
+均值漂移
+mean shift
+一阶逻辑
+first-order logic
+预测模型
+predictive model
+深度神经网络
+deep neural network
+直觉模糊集
+intuitionistic fuzzy sets
+机制设计
+mechanism design
+数字水印
+digital watermarking
+分层分类
+hierarchical classification
+软件可靠性
+software reliability
+符号回归
+symbolic regression
+数字图书馆
+digital library
+群体决策支持系统
+group decision support system
+基于Agent的模型
+agent-based model
+约束逻辑程序设计
+constraint logic programming
+马尔可夫随机场
+markov random field
+极限学习机
+extreme learning machines
+水库计算
+reservoir computing
+多因素分析
+multivariate analysis
+相关系数
+correlation coefficient
+心率变异性
+heart rate variability
+模糊C均值聚类
+fuzzy c-means clustering
+空中交通管制
+air traffic control
+质量评价
+quality assessment
+客户关系管理
+customer relationship management
+搜索引擎
+search engines
+并行工程
+concurrent engineering
+虚拟机
+virtual machine
+工作记忆
+working memory
+多Agent系统
+multi agent system
+人类与机器人互动
+human robot interaction
+基于实例的学习
+instance-based learning
+自动文摘
+text summarization
+混合方法
+hybrid approach
+软件代理
+software agent
+模型管理
+model management
+随机行走
+random walk
+医疗决策
+medical decision making
+自然智能
+natural intelligence
+语义Web服务
+semantic web services
+先验知识
+prior knowledge
+微阵列数据
+microarray data
+纠错码
+error-correcting codes
+循证医学
+evidence-based medicine
+智能运输系统
+intelligent transport systems
+扩展卡尔曼滤波器
+extended kalman filter
+音乐信息检索
+music information retrieval
+数据包络分析
+data envelopment analysis
+态势感知
+situational awareness
+多维标度
+multidimensional scaling
+统计过程控制
+statistical process control
+子空间学习
+subspace learning
+标签传播
+label propagation
+风力发电机组
+wind turbine
+相关分析
+correlation analysis
+基因调控网络
+gene regulatory networks
+控制理论
+control theory
+启发式优化
+heuristic optimization
+模拟退火算法
+simulated annealing algorithm
+贝叶斯估计
+bayesian estimation
+进化策略
+evolution strategies
+人机界面
+human-machine interface
+基于知识的系统
+knowledge based system
+生产系统
+production system
+频谱感知
+spectrum sensing
+表示学习
+representation learning
+脉冲神经网络
+spiking neural networks
+多元线性回归分析
+multiple linear regression
+仿真模型
+simulation model
+质量保证
+quality assurance
+严肃游戏
+serious game
+概念模型
+conceptual model
+语言模型
+language model
+心脏衰竭
+heart failure
+空气质量
+air quality
+模糊专家系统
+fuzzy expert system
+移动自组网
+mobile ad hoc network
+基于项目的学习
+project-based learning
+联盟形成
+coalition formation
+规划识别
+plan recognition
+数据仓库
+data warehousing
+响应面法
+response surface methodology
+模糊推理系统
+fuzzy inference systems
+计算智能社会
+computational intelligence society
+虚拟环境
+virtual environments
+无人机
+unmanned aerial vehicle
+社会计算
+social computing
+群智能算法
+swarm intelligence algorithm
+免疫系统
+immune system
+顺序回归
+ordinal regression
+统计学习理论
+statistical learning theory
+光学相干断层扫描
+optical coherence tomography
+最小生成树
+minimum spanning tree
+数字图书馆
+digital libraries
+分类精度
+classification accuracy
+全局指数稳定性
+global exponential stability
+可信计算
+trusted computing
+逆运动学
+inverse kinematics
+约束传播
+constraint propagation
+软件维护
+software maintenance
+家庭自动化
+home automation
+综合分析
+multicriteria analysis
+提出了直觉模糊集
+intuitionistic fuzzy set
+分布式人工智能
+distributed ai
+形态分析
+morphological analysis
+数字取证
+digital forensics
+油中溶解气体分析
+dissolved gas analysis
+辅助技术
+assistive technologies
+实验设计
+experimental design
+非线性规划
+nonlinear programming
+技术分析
+technical analysis
+体育活动
+physical activity
+组播路由
+multicast routing
+最大似然法
+maximum likelihood
+包容架构
+subsumption architecture
+混合智能系统
+hybrid intelligent systems
+机器学习方法
+machine learning methods
+医学人工智能
+artificial intelligence in medicine
+脉冲神经网络
+spiking neural network
+基于内容的图像检索
+content based image retrieval
+曲线拟合
+curve fitting
+蒙特卡罗方法
+monte carlo methods
+智能决策支持系统
+intelligent decision support systems
+傅里叶变换
+fourier transform
+信念网络
+belief networks
+自然语言
+natural languages
+信任管理
+trust management
+心房颤动
+atrial fibrillation
+背包问题
+knapsack problem
+学习对象
+learning objects
+贝叶斯分类器
+bayesian classifier
+对比度增强
+contrast enhancement
+案例研究
+case studies
+不确定性推理
+uncertain reasoning
+质量管理
+quality management
+ICU
+intensive care unit
+有限自动机
+finite automata
+假设检验
+hypothesis testing
+概念学习
+concept learning
+系统综述
+systematic review
+基因调控网络
+gene regulatory network
+模糊层次分析法
+fuzzy ahp
+主动轮廓
+active contour
+统计关系学习
+statistical relational learning
+态势评估
+situation assessment
+用户交互
+user interaction
+小波分解
+wavelet decomposition
+概念图表
+conceptual graphs
+分布式问题求解
+distributed problem solving
+最小二乘支持向量机
+least square support vector machine
+智能制造系统
+intelligent manufacturing systems
+地理信息系统
+geographical information system
+手语识别
+sign language recognition
+非线性回归
+nonlinear regression
+优化问题
+optimization problem
+设计自动化
+design automation
+多Agent系统
+multi agent systems
+高斯过程回归
+gaussian process regression
+径向基函数网络
+radial basis function networks
+无人飞行器
+unmanned aerial vehicles
+最近邻居
+nearest neighbors
+模型驱动工程
+model-driven engineering
+和声搜索算法
+harmony search algorithm
+图划分
+graph partitioning
+多准则决策分析
+multi-criteria decision analysis
+属性选择
+attribute selection
+文本蕴涵
+textual entailment
+多标准分析
+multi-criteria analysis
+装配线平衡
+assembly line balancing
+组织学习
+organizational learning
+社交网络
+social networking
+常识推理
+commonsense reasoning
+演化硬件
+evolvable hardware
+文献分析
+document analysis
+优化算法
+optimization algorithms
+地理信息系统
+geographical information systems
+隐性知识
+tacit knowledge
+径向基函数网络
+radial basis function network
+反向传播算法
+back propagation algorithm
+说话人识别
+speaker recognition
+Raspberry Pi
+raspberry pi
+概率神经网络
+probabilistic neural network
+空间数据挖掘
+spatial data mining
+图像质量
+image quality
+凸包
+convex hull
+自组织映射
+self organizing map
+流量分析
+traffic analysis
+仿生算法
+nature inspired algorithms
+影响图
+influence diagrams
+业务流程管理
+business process management
+模糊关系
+fuzzy relation
+回归树
+regression trees
+自适应滤波
+adaptive filtering
+产品开发
+product development
+空间决策支持系统
+spatial decision support systems
+近似动态规划
+approximate dynamic programming
+知识整合
+knowledge integration
+图形用户界面
+graphical user interface
+项目反应理论
+item response theory
+智能数据分析
+intelligent data analysis
+粒子群优化算法
+particle swarm optimizer
+径向基函数神经网络
+radial basis function neural networks
+马尔可夫模型
+markov model
+建筑业
+construction industry
+核主成分分析
+kernel principal component analysis
+经济负荷分配
+economic load dispatch
+运动表象
+motor imagery
+手势识别
+hand gesture recognition
+智能运输系统
+intelligent transport system
+岭回归
+ridge regression
+径向基函数
+radial basis functions
+在线社交网络
+online social network
+移动电话
+mobile phone
+压缩感知
+compressive sensing
+软件缺陷预测
+software defect prediction
+语法演变
+grammatical evolution
+问题分类
+question classification
+结直肠癌
+colorectal cancer
+多分类器系统
+multiple classifier system
+搜索空间
+search space
+迭代学习控制
+iterative learning control
+多主体规划
+multi-agent planning
+蛋白质-蛋白质相互作用
+protein-protein interactions
+算法选择
+algorithm selection
+数据同化
+data assimilation
+模糊模型
+fuzzy model
+人本计算
+human computation
+冠状动脉疾病
+coronary artery disease
+概念代数
+concept algebra
+主成分分析
+principal components analysis
+事件演算
+event calculus
+进化优化
+evolutionary optimization
+情景演算
+situation calculus
+最大似然估计
+maximum likelihood estimation
+二级结构
+secondary structure
+行动选择
+action selection
+直接转矩控制
+direct torque control
+条件随机域
+conditional random field
+统计机器翻译
+statistical machine translation
+基于Agent的系统
+agent-based systems
+传递函数
+transfer function
+自动编程
+automatic programming
+本体对齐
+ontology alignment
+蜜蜂算法
+bees algorithm
+劝导技术
+persuasive technology
+概率图模型
+probabilistic graphical models
+作者身份识别
+authorship attribution
+电脑游戏
+computer game
+空间分析
+spatial analysis
+多视图学习
+multi-view learning
+击键动力学
+keystroke dynamics
+蚂蚁系统
+ant system
+智能交通系统
+intelligent transportation system
+支持向量数据描述
+support vector data description
+从运动恢复结构
+structure from motion
+临床实践指南
+clinical practice guidelines
+最小二乘支持向量机
+least squares support vector machine
+智能网络
+intelligent networks
+记录链接
+record linkage
+混合学习
+hybrid learning
+隶属函数
+membership functions
+多任务学习
+multitask learning
+全局搜索
+global search
+性能测量
+performance measurement
+学习分类器系统
+learning classifier systems
+黑板结构
+blackboard architecture
+超分辨率
+super resolution
+回声状态网络
+echo state networks
+能量收集
+energy harvesting
+那ï朴素贝叶斯分类器
+naïve bayes classifier
+电动汽车
+electric vehicles
+深度信念网络
+deep belief networks
+二进制粒子群优化算法
+binary particle swarm optimization
+本体工程
+ontology engineering
+SNOMED CT
+snomed ct
+椭圆曲线密码体制
+elliptic curve cryptography
+二次分配问题
+quadratic assignment problem
+计算流体动力学
+computational fluid dynamics
+情景分析
+scenario analysis
+证据推理
+evidential reasoning
+多准则决策
+multicriteria decision making
+马尔可夫链蒙特卡罗
+markov chain monte carlo
+主成分分析
+principle component analysis
+混合现实
+mixed reality
+对手建模
+opponent modeling
+非线性动力学
+nonlinear dynamics
+粒子滤波
+particle filtering
+有限元
+finite element
+距离度量学习
+distance metric learning
+数据仓库
+data warehouses
+关联分类
+associative classification
+智能空间
+intelligent space
+决策表
+decision table
+群优化
+swarm optimization
+电源变压器
+power transformers
+克隆选择算法
+clonal selection algorithm
+多文档摘要
+multi-document summarization
+模糊积分
+fuzzy integral
+概率神经网络
+probabilistic neural networks
+管理信息系统
+management information systems
+全局渐近稳定性
+global asymptotic stability
+搜索算法
+search algorithms
+特色建设
+feature construction
+程序生成内容
+procedural content generation
+感兴趣区域
+region of interest
+烟花算法
+fireworks algorithm
+发展中国家
+developing countries
+相变
+phase transition
+开放数据
+open data
+公共卫生
+public health
+模糊时间序列
+fuzzy time series
+词计算
+computing with words
+土地覆盖
+land cover
+余弦相似度
+cosine similarity
+自组织映射
+self organizing maps
+声发射
+acoustic emission
+差分隐私
+differential privacy
+设计科学
+design science
+高光谱图像
+hyperspectral image
+delaunay三角形
+delaunay triangulation
+软套
+soft set
+虚拟人
+virtual human
+虚拟企业
+virtual enterprise
+可再生能源
+renewable energy sources
+体现会话代理
+embodied conversational agents
+在线争议解决
+online dispute resolution
+整数线性规划
+integer linear programming
+手语
+sign language
+最小二乘支持向量机
+least squares support vector machines
+Kolmogorov复杂性
+kolmogorov complexity
+智能制造
+intelligent manufacturing
+最大功率点跟踪
+maximum power point tracking
+多分类器系统
+multiple classifier systems
+超声成像
+ultrasound imaging
+偏最小二乘法
+partial least squares
+人工坐席
+artificial agents
+多层感知器
+multilayer perceptrons
+核电站
+nuclear power plants
+回归模型
+regression model
+教学设计
+instructional design
+多元回归
+multiple regression
+自我调节学习
+self-regulated learning
+人工免疫
+artificial immune
+竞争情报
+competitive intelligence
+主动轮廓模型
+active contour model
+混合遗传算法
+hybrid genetic algorithm
+汉明距离
+hamming distance
+中医
+traditional chinese medicine
+时间序列分类
+time series classification
+功能连接
+functional connectivity
+多目标进化算法
+multi-objective evolutionary algorithms
+电脑音乐
+computer music
+Hopfield神经网络
+hopfield neural network
+混合方法
+hybrid method
+自主车
+autonomous vehicle
+对话系统
+dialogue systems
+无监督聚类
+unsupervised clustering
+决策支持系统
+decision-support system
+Radon变换
+radon transform
+前馈神经网络
+feedforward neural network
+离散事件仿真
+discrete-event simulation
+心率
+heart rate
+环境决策支持系统
+environmental decision support systems
+本体匹配
+ontology matching
+开放源代码软件
+open source software
+语音增强
+speech enhancement
+偏好诱导
+preference elicitation
+无线电频率识别
+radio frequency identification
+复杂自适应系统
+complex adaptive systems
+自适应系统
+adaptive system
+服务选择
+service selection
+最小描述长度
+minimum description length
+人类视觉系统
+human visual system
+网络编码
+network coding
+多准则决策
+multiple criteria decision making
+高斯分布
+gaussian distribution
+光网络
+optical networks
+粒子滤波器
+particle filters
+矩阵完成
+matrix completion
+语音识别
+voice recognition
+智能用户界面
+intelligent user interfaces
+用户模型
+user model
+纹理特征
+texture features
+蜂群优化
+bee colony optimization
+视障
+visually impaired
+概率密度函数
+probability density function
+遗传模糊系统
+genetic fuzzy systems
+无损检测
+non-destructive testing
+目标函数
+objective function
+土壤水分
+soil moisture
+上界
+upper bound
+摘要论证
+abstract argumentation
+医院信息系统
+hospital information systems
+无线Mesh网络
+wireless mesh networks
+聚类集成
+clustering ensemble
+分类算法
+classification algorithm
+负载平衡
+load balance
+配水系统
+water distribution systems
+编辑距离
+edit distance
+基于条件的维护
+condition based maintenance
+神经网络集成
+neural network ensemble
+随机梯度下降
+stochastic gradient descent
+阴性选择
+negative selection
+语法推理
+grammatical inference
+事件提取
+event extraction
+混合整数规划
+mixed integer programming
+直方图均衡化
+histogram equalization
+语义表示
+semantic representation
+协方差矩阵
+covariance matrix
+规则库
+rule base
+蚁群算法
+max-min ant system
+中值滤波
+median filter
+说话人确认
+speaker verification
+贝叶斯信念网络
+bayesian belief networks
+需求侧管理
+demand side management
+亲和传播
+affinity propagation
+自适应共振理论
+adaptive resonance theory
+定性物理
+qualitative physics
+变精度粗糙集
+variable precision rough set
+多发性硬化症
+multiple sclerosis
+感应电动机
+induction motors
+主动形状模型
+active shape model
+面向agent的软件工程
+agent-oriented software engineering
+分布式认知
+distributed cognition
+视觉密码
+visual cryptography
+小波变换
+wavelet transformation
+上下文信息
+contextual information
+测试用例排序
+test case prioritization
+知识图谱
+knowledge graph
+光伏发电系统
+photovoltaic system
+智能环境
+smart environment
+远程控制
+remote control
+膜计算
+membrane computing
+反向传播算法
+backpropagation algorithm
+虚拟学习环境
+virtual learning environment
+Voronoi图
+voronoi diagram
+语音情感识别
+speech emotion recognition
+活动理论
+activity theory
+脑机接口
+brain-computer interfaces
+智能环境
+intelligent environment
+快速傅里叶变换
+fast fourier transform
+车间调度问题
+job shop scheduling problem
+帕金森氏病
+parkinson’s disease
+未来互联网
+future internet
+协同进化
+cooperative coevolution
