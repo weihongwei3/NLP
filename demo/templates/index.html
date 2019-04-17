@@ -1,0 +1,60 @@
+{% extends "base.html" %} {% block mainbody %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <!--overview start-->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="page-header"><i class="fa fa-search"></i> 系统实现 </h3>
+                    <ol class="breadcrumb">
+                        <li><i class="fa fa-home"></i><a href="\">Home</a></li>
+                        <li><i class="fa fa-search"></i>系统实现</li>
+                    </ol>
+                </div>
+            </div>
+            <div>
+                <img src="../../static/img/process/save_articles.JPG" style="width: 155px;">
+                <i class="fa fa-arrow-right fa-3x"></i>
+                <img src="../../static/img/process/yuchuli.JPG" style="width: 155px;">
+                <i class="fa fa-arrow-right fa-3x"></i>
+                <img src="../../static/img/process/sentences.JPG" style="width: 155px;">
+                <i class="fa fa-arrow-right fa-3x"></i>
+                <img src="../../static/img/process/entity.JPG" style="width: 155px;">
+                <i class="fa fa-arrow-right fa-3x"></i>
+                <img src="../../static/img/process/relation.JPG" style="width: 155px;">
+                <i class="fa fa-arrow-right fa-3x"></i>
+                <img src="../../static/img/process/feature.JPG" style="width: 155px;">
+            </div>
+
+            <section class="panel panel-default">
+                <header class="panel-heading">
+                    数据处理模块 :
+                </header>
+                <div class="panel-body" >
+                    <div align="center">
+                        <a href="/create"><button  type="button" class="btn btn-primary">创建数据表</button></a>
+                        <a  href="/article"><button  type="button" class="btn btn-primary">存储数据集</button></a>
+                        <a  href="/sen"><button  type="button" class="btn btn-primary">分句、分词</button></a>
+                        <a  href="/ment"><button  type="button" class="btn btn-primary">抽取实体</button></a>
+                        <a  href="/cand"><button  type="button" class="btn btn-primary">构建关系集</button></a>
+                        <a  href="/getnlpp"><button  type="button" class="btn btn-primary">词性标注、命名实体识别</button></a>
+                        <a  href="/featuree"><button  type="button" class="btn btn-primary">特征提取</button></a>
+                    </div>
+                    <div>
+                        <div class="panel-body" style="height: 550px;overflow:scroll;cache:false;">
+                            {% for line in data%}
+                            <div>{{ line }}</div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
